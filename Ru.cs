@@ -73,7 +73,6 @@ namespace UnityWrappers.Localization.Resources
 				{ TextKey.MenuSkillsX3Getting, "убить трёх противников одним снарядом" },
 				
 				{ TextKey.MenuSettingsLanguagePage, "язык" },
-				{ TextKey.MenuSettingsColorsPage, "цвета" },
 				{ TextKey.MenuSettingsSoundPage, "звук" },
 				{ TextKey.MenuSettingsVideoPage, "видео" },
 				{ TextKey.MenuSettingsMousePage, "мышь" },
@@ -163,6 +162,8 @@ namespace UnityWrappers.Localization.Resources
 				{ TextKey.BindingSMB, "боковая кнопка мыши" },
 				{ TextKey.BindingSMBF, "боковая кнопка мыши" },
 				{ TextKey.BindingSMBB, "боковая кнопка мыши" },
+				{ TextKey.BindingLeftShift, "шифт" },
+				{ TextKey.BindingSpace, "пробел" }
 			};
 		}
 	}

@@ -73,7 +73,6 @@ namespace UnityWrappers.Localization.Resources
 				{ TextKey.MenuSkillsX3Getting, "kill three enemies with a single projectile" },
 
 				{ TextKey.MenuSettingsLanguagePage, "language" },
-				{ TextKey.MenuSettingsColorsPage, "colors" },
 				{ TextKey.MenuSettingsSoundPage, "sound" },
 				{ TextKey.MenuSettingsVideoPage, "video" },
 				{ TextKey.MenuSettingsMousePage, "mouse" },
@@ -163,6 +162,8 @@ namespace UnityWrappers.Localization.Resources
 				{ TextKey.BindingSMB, "mouse side button" },
 				{ TextKey.BindingSMBF, "mouse forward button" },
 				{ TextKey.BindingSMBB, "mouse back button" },
+				{ TextKey.BindingLeftShift, "shift" },
+				{ TextKey.BindingSpace, "space" },
 			};
 		}
 	}
