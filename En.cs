@@ -36,6 +36,8 @@ namespace UnityWrappers.Localization.Resources
 				{ TextKey.MenuSkillsTab, "skills" },
 				{ TextKey.MenuSettingsTab, "settings" },
 				
+				{ TextKey.MenuSkillToHub, "hub" },
+				
 				{ TextKey.MenuSkillsPistolDescription, "high fire rate, but low range" },
 				{ TextKey.MenuSkillsPistolX5, "increases fire rate" },
 				{ TextKey.MenuSkillsPistolX3, "turns into a shotgun" },
@@ -146,10 +148,12 @@ namespace UnityWrappers.Localization.Resources
 				{ TextKey.TextFeatures, "features:" },
 				{ TextKey.TextGetting, "getting:" },
 				{ TextKey.TextMoreInfo, $"press {T("TAB", ColorType.Red)} for details" },
+				{ TextKey.TextApply, "apply" },
 				
-				{ TextKey.SetupGuideHaveMouse, "Mouse or Touchpad?" },
-				{ TextKey.SetupGuideMouse, "Mouse" },
-				{ TextKey.SetupGuideTouchpad, "Touchpad" },
+				{ TextKey.SetupGuideAnalytics, "allow analytics collection?" },
+				{ TextKey.SetupGuideHaveMouse, "mouse or touchpad?" },
+				{ TextKey.SetupGuideMouse, "mouse" },
+				{ TextKey.SetupGuideTouchpad, "touchpad" },
 				{ TextKey.SetupGuideSideButtons, "click the side mouse button if it works" },
 				{ TextKey.SetupGuideNoSideButtons, "I don't have side buttons" },
 				{ TextKey.SetupGuideWheelScroll, "scroll the mouse wheel if it works" },

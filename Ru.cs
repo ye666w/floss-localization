@@ -36,6 +36,8 @@ namespace UnityWrappers.Localization.Resources
 				{ TextKey.MenuSkillsTab, "навыки" },
 				{ TextKey.MenuSettingsTab, "настройки" },
 				
+				{ TextKey.MenuSkillToHub, "хаб" },
+				
 				{ TextKey.MenuSkillsPistolDescription, "высокая скорострельность, но малая дальность" },
 				{ TextKey.MenuSkillsPistolX5, "повышается скорострельность" },
 				{ TextKey.MenuSkillsPistolX3, "превращается в дробовик" },
@@ -146,10 +148,12 @@ namespace UnityWrappers.Localization.Resources
 				{ TextKey.TextFeatures, "особенности:" },
 				{ TextKey.TextGetting, "получение:" },
 				{ TextKey.TextMoreInfo, $"подробности - {T("TAB", ColorType.Red)}" },
+				{ TextKey.TextApply, "применить" },
 				
-				{ TextKey.SetupGuideHaveMouse, "Мышь или Тачпад?" },
-				{ TextKey.SetupGuideMouse, "Мышь" },
-				{ TextKey.SetupGuideTouchpad, "Тачпад" },
+				{ TextKey.SetupGuideAnalytics, "разрешить сбор аналитики?" },
+				{ TextKey.SetupGuideHaveMouse, "мышь или тачпад?" },
+				{ TextKey.SetupGuideMouse, "мышь" },
+				{ TextKey.SetupGuideTouchpad, "тачпад" },
 				{ TextKey.SetupGuideSideButtons, "нажми боковую кнопку мыши, если она есть" },
 				{ TextKey.SetupGuideNoSideButtons, "у меня нет боковых кнопок" },
 				{ TextKey.SetupGuideWheelScroll, "покрути колесо мыши, если оно работает" },
