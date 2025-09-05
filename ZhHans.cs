@@ -40,7 +40,7 @@ namespace UnityWrappers.Localization.Resources
 				
 				{ TextKey.MenuSkillsPistolDescription, "射速高，但射程短" },
 				{ TextKey.MenuSkillsPistolX5, "射速提升" },
-				{ TextKey.MenuSkillsPistolX3, "变为霰弹枪" },
+				{ TextKey.MenuSkillsPistolX3, "变成霰弹枪" },
 				{ TextKey.MenuSkillsPistolFeatures, "" },
 				
 				{ TextKey.MenuSkillsBowDescription, "射速低，但射程无限" },
@@ -167,7 +167,7 @@ namespace UnityWrappers.Localization.Resources
 				{ TextKey.BindingSMBF, "鼠标侧键" },
 				{ TextKey.BindingSMBB, "鼠标侧键" },
 				{ TextKey.BindingLeftShift, "Shift" },
-				{ TextKey.BindingSpace, "空格" }
+				{ TextKey.BindingSpace, "空白" }
 			};
 		}
 	}
