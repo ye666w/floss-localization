@@ -46,7 +46,7 @@ namespace UnityWrappers.Localization.Resources
 				{ TextKey.MenuSkillsBowDescription, "射速低，但射程无限" },
 				{ TextKey.MenuSkillsBowX5, "充能速度提升" },
 				{ TextKey.MenuSkillsBowX3, "可穿透白色护盾" },
-				{ TextKey.MenuSkillsBowFeatures, "- 每次击杀任意敌人充能 1/3\n- 最多可穿透三名敌人" },
+				{ TextKey.MenuSkillsBowFeatures, "- 每次击杀任意敌人可获得1/3的充能\n- 最多可穿透三名敌人" },
 				
 				{ TextKey.MenuSkillsSwordDescription, "近战武器" },
 				{ TextKey.MenuSkillsSwordX5, "攻击速度提升" },
@@ -157,15 +157,15 @@ namespace UnityWrappers.Localization.Resources
 				{ TextKey.SetupGuideSideButtons, "如果有，请按一下鼠标侧键" },
 				{ TextKey.SetupGuideNoSideButtons, "我没有鼠标侧键" },
 				{ TextKey.SetupGuideWheelScroll, "如果可以，请滚动一下鼠标滚轮" },
-				{ TextKey.SetupGuideNoWheelScroll, "我的滚轮不可用" },
+				{ TextKey.SetupGuideNoWheelScroll, "滚轮不可用" },
 				{ TextKey.SetupGuideMenuHint, "按 Tab 打开菜单\n里面有很多设置和信息" },
 				
 				{ TextKey.BindingLMB, "鼠标左键" },
 				{ TextKey.BindingRMB, "鼠标右键" },
 				{ TextKey.BindingMMB, "鼠标中键" },
 				{ TextKey.BindingSMB, "鼠标侧键" },
-				{ TextKey.BindingSMBF, "鼠标侧键" },
-				{ TextKey.BindingSMBB, "鼠标侧键" },
+				{ TextKey.BindingSMBF, "鼠标前进键" },
+				{ TextKey.BindingSMBB, "鼠标后退键" },
 				{ TextKey.BindingLeftShift, "Shift" },
 				{ TextKey.BindingSpace, "空白" }
 			};
