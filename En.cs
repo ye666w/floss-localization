@@ -66,7 +66,7 @@ namespace UnityWrappers.Localization.Resources
 				{ TextKey.MenuSkillsAuraDescription, $"blocks {T("bullets", ColorType.Yellow)} and {T("enemies", ColorType.Yellow)}" },
 				{ TextKey.MenuSkillsAuraX5, "faster charge recovery" },
 				{ TextKey.MenuSkillsAuraX3, "radius increases" },
-				{ TextKey.MenuSkillsAuraFeatures, "- grants one mana charge when used" },
+				{ TextKey.MenuSkillsAuraFeatures, "- grants one dash charge when used" },
 
 				{ TextKey.MenuSkillsX5Description, "increases weapon fire rate" },
 				{ TextKey.MenuSkillsX5Getting, "quickly kill five enemies" },

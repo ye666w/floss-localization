@@ -66,7 +66,7 @@ namespace UnityWrappers.Localization.Resources
 				{ TextKey.MenuSkillsAuraDescription, $"защищает от {T("пуль", ColorType.Yellow)} и {T("врагов", ColorType.Yellow)}" },
 				{ TextKey.MenuSkillsAuraX5, "ускоряется восстановление заряда" },
 				{ TextKey.MenuSkillsAuraX3, "увеличивается радиус" },
-				{ TextKey.MenuSkillsAuraFeatures, "- дает один заряд маны при установке" },
+				{ TextKey.MenuSkillsAuraFeatures, "- дает один заряд рывка при установке" },
 				
 				{ TextKey.MenuSkillsX5Description, "увеличивает скорострельность пушек" },
 				{ TextKey.MenuSkillsX5Getting, "быстро убить пятерых противников" },

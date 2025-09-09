@@ -66,7 +66,7 @@ namespace UnityWrappers.Localization.Resources
 				{ TextKey.MenuSkillsAuraDescription, $"可防御 {T("子弹", ColorType.Yellow)} 和 {T("敌人", ColorType.Yellow)}" },
 				{ TextKey.MenuSkillsAuraX5, "充能恢复更快" },
 				{ TextKey.MenuSkillsAuraX3, "光环范围增加" },
-				{ TextKey.MenuSkillsAuraFeatures, "- 放置时提供一点法力" },
+				{ TextKey.MenuSkillsAuraFeatures, "- 放置时增加1点冲刺次数" },
 				
 				{ TextKey.MenuSkillsX5Description, "提升所有武器的射速" },
 				{ TextKey.MenuSkillsX5Getting, "快速击杀 5 名敌人" },
