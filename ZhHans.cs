@@ -114,9 +114,8 @@ namespace UnityWrappers.Localization.Resources
 				{ TextKey.MenuSettingsSavesExport, "导出存档" },
 				{ TextKey.MenuSettingsSavesUnlockAll, $"{T("解锁所有内容", ColorType.Red)}"},
 				{ TextKey.MenuSettingsSavesReset, $"{T("重置存档", ColorType.Red)}" },
-				
-				{ TextKey.MenuSettingsCreditsTwitter, "推特" },
-				{ TextKey.MenuSettingsCreditsItch, "itch" },
+
+				{ TextKey.MenuSettingsCreditsTwitter, $"{T("推特", ColorType.Blue)}" },
 				
 				{ TextKey.UnlockBow, P(TextKey.WordBow) },
 				{ TextKey.UnlockMine, P(TextKey.WordMine) },

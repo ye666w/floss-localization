@@ -115,8 +115,7 @@ namespace UnityWrappers.Localization.Resources
 				{ TextKey.MenuSettingsSavesUnlockAll, $"{T("разблокировать весь контент", ColorType.Red)}"},
 				{ TextKey.MenuSettingsSavesReset, $"{T("сбросить сохранения", ColorType.Red)}" },
 				
-				{ TextKey.MenuSettingsCreditsTwitter, "twitter" },
-				{ TextKey.MenuSettingsCreditsItch, "itch" },
+				{ TextKey.MenuSettingsCreditsTwitter, $"{T("link", ColorType.Blue)}" },
 				
 				{ TextKey.UnlockBow, P(TextKey.WordBow) },
 				{ TextKey.UnlockMine, P(TextKey.WordMine) },
