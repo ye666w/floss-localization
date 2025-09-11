@@ -36,7 +36,7 @@ namespace UnityWrappers.Localization.Resources
 				{ TextKey.MenuSkillsTab, "技能" },
 				{ TextKey.MenuSettingsTab, "设置" },
 				
-				{ TextKey.MenuSkillToHub, "中心" },
+				{ TextKey.MenuSkillToHub, "返回中心" },
 				
 				{ TextKey.MenuSkillsPistolDescription, "射速高，但射程短" },
 				{ TextKey.MenuSkillsPistolX5, "射速提升" },

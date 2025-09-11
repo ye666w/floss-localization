@@ -36,7 +36,7 @@ namespace UnityWrappers.Localization.Resources
 				{ TextKey.MenuSkillsTab, "навыки" },
 				{ TextKey.MenuSettingsTab, "настройки" },
 				
-				{ TextKey.MenuSkillToHub, "хаб" },
+				{ TextKey.MenuSkillToHub, "вернуться в хаб" },
 				
 				{ TextKey.MenuSkillsPistolDescription, "высокая скорострельность, но малая дальность" },
 				{ TextKey.MenuSkillsPistolX5, "повышается скорострельность" },

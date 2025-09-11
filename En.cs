@@ -36,7 +36,7 @@ namespace UnityWrappers.Localization.Resources
 				{ TextKey.MenuSkillsTab, "skills" },
 				{ TextKey.MenuSettingsTab, "settings" },
 				
-				{ TextKey.MenuSkillToHub, "hub" },
+				{ TextKey.MenuSkillToHub, "return to hub" },
 				
 				{ TextKey.MenuSkillsPistolDescription, "high fire rate, but low range" },
 				{ TextKey.MenuSkillsPistolX5, "increases fire rate" },
