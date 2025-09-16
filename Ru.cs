@@ -146,7 +146,7 @@ namespace UnityWrappers.Localization.Resources
 				{ TextKey.TextX3, "x3:" },
 				{ TextKey.TextFeatures, "Особенности:" },
 				{ TextKey.TextGetting, "Получение:" },
-				{ TextKey.TextMoreInfo, $"подробности - {T("TAB", ColorType.Red)}" },
+				{ TextKey.TextMoreInfo, $"подробности - {T("ESC", ColorType.Red)}" },
 				{ TextKey.TextApply, "применить" },
 				
 				{ TextKey.SetupGuideAnalytics, "разрешить сбор аналитики?" },

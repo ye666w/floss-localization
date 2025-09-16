@@ -146,7 +146,7 @@ namespace UnityWrappers.Localization.Resources
 				{ TextKey.TextX3, "x3:" },
 				{ TextKey.TextFeatures, "特性:" },
 				{ TextKey.TextGetting, "获得方式:" },
-				{ TextKey.TextMoreInfo, $"详情 - {T("TAB", ColorType.Red)}" },
+				{ TextKey.TextMoreInfo, $"详情 - {T("ESC", ColorType.Red)}" },
 				{ TextKey.TextApply, "应用" },
 				
 				{ TextKey.SetupGuideAnalytics, "允许收集数据吗？" },

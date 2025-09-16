@@ -127,7 +127,7 @@ namespace UnityWrappers.Localization.Resources
 				{ TextKey.TutorialDash, "dash to cursor position" },
 				{ TextKey.TutorialMouseWheel, "scroll mouse wheel" },
 				{ TextKey.TutorialDashWithShield, $"make dash with {T("shield", ColorType.Yellow)}" },
-				{ TextKey.TutorialPortalIsBroken, "the developer broke the portal\nyou’ll have to get back to the hub yourself" },
+				{ TextKey.TutorialPortalIsBroken, "the developer broke the portal\nyou'll have to get back to the hub yourself" },
 				{ TextKey.TutorialPortalIsBrokenAgain, "portal is broken again" },
 				{ TextKey.TutorialX3, "killing THREE enemies with a SINGLE shot\nempowers your guns" },
 
@@ -146,7 +146,7 @@ namespace UnityWrappers.Localization.Resources
 				{ TextKey.TextX3, "x3:" },
 				{ TextKey.TextFeatures, "Features:" },
 				{ TextKey.TextGetting, "Getting:" },
-				{ TextKey.TextMoreInfo, $"press {T("TAB", ColorType.Red)} for details" },
+				{ TextKey.TextMoreInfo, $"press {T("ESC", ColorType.Red)} for details" },
 				{ TextKey.TextApply, "apply" },
 				
 				{ TextKey.SetupGuideAnalytics, "allow analytics collection?" },
