@@ -46,7 +46,7 @@ namespace UnityWrappers.Localization.Resources
 				{ TextKey.MenuSkillsBowDescription, "射速低，但射程无限" },
 				{ TextKey.MenuSkillsBowX5, "充能速度提升" },
 				{ TextKey.MenuSkillsBowX3, "可穿透白色护盾" },
-				{ TextKey.MenuSkillsBowFeatures, "- 每次击杀任意敌人可获得1/3的充能\n- 最多可穿透三名敌人" },
+				{ TextKey.MenuSkillsBowFeatures, "• 每次击杀任意敌人可获得1/3的充能\n• 最多可穿透三名敌人" },
 				
 				{ TextKey.MenuSkillsSwordDescription, "近战武器" },
 				{ TextKey.MenuSkillsSwordX5, "攻击速度提升" },
@@ -56,17 +56,17 @@ namespace UnityWrappers.Localization.Resources
 				{ TextKey.MenuSkillsMineDescription, "敌人触碰后触发" },
 				{ TextKey.MenuSkillsMineX5, "投掷速度提升" },
 				{ TextKey.MenuSkillsMineX3, "爆炸范围增加" },
-				{ TextKey.MenuSkillsMineFeatures, $"- 可用 {T("剑", ColorType.Blue)} 投掷\n- 可用 {T("射击", ColorType.Red)} 引爆" },
+				{ TextKey.MenuSkillsMineFeatures, $"• 可用 {T("剑", ColorType.Blue)} 投掷\n• 可用 {T("射击", ColorType.Red)} 引爆" },
 				
 				{ TextKey.MenuSkillsShieldDescription, $"可防御 {T("子弹", ColorType.Yellow)} 和 {T("敌人", ColorType.Yellow)}" },
 				{ TextKey.MenuSkillsShieldX5, "充能恢复更快" },
 				{ TextKey.MenuSkillsShieldX3, "防御范围增加" },
-				{ TextKey.MenuSkillsShieldFeatures, "- 冲刺时可使用\n- 每次击杀都会恢复充能" },
+				{ TextKey.MenuSkillsShieldFeatures, "• 冲刺时可使用\n• 每次击杀都会恢复充能" },
 				
 				{ TextKey.MenuSkillsAuraDescription, $"可防御 {T("子弹", ColorType.Yellow)} 和 {T("敌人", ColorType.Yellow)}" },
 				{ TextKey.MenuSkillsAuraX5, "充能恢复更快" },
 				{ TextKey.MenuSkillsAuraX3, "光环范围增加" },
-				{ TextKey.MenuSkillsAuraFeatures, "- 放置时增加1点冲刺次数" },
+				{ TextKey.MenuSkillsAuraFeatures, "• 放置时增加1点冲刺次数" },
 				
 				{ TextKey.MenuSkillsX5Description, "提升所有武器的射速" },
 				{ TextKey.MenuSkillsX5Getting, "快速击杀 5 名敌人" },
@@ -157,7 +157,7 @@ namespace UnityWrappers.Localization.Resources
 				{ TextKey.SetupGuideNoSideButtons, "我没有鼠标侧键" },
 				{ TextKey.SetupGuideWheelScroll, "如果可以，请滚动一下鼠标滚轮" },
 				{ TextKey.SetupGuideNoWheelScroll, "滚轮不可用" },
-				{ TextKey.SetupGuideMenuHint, "按 Tab 打开菜单\n里面有很多设置和信息" },
+				{ TextKey.SetupGuideMenuHint, "白色的光辉曾经笼罩一切...\n\n直至坠入自身的深渊，\n\n只留下黑暗与零散的余晖" },
 				
 				{ TextKey.BindingLMB, "鼠标左键" },
 				{ TextKey.BindingRMB, "鼠标右键" },
