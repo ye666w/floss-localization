@@ -121,7 +121,7 @@ namespace UnityWrappers.Localization.Resources
 				{ TextKey.UnlockMine, P(TextKey.WordMine) },
 				{ TextKey.UnlockStaticShield, P(TextKey.WordStaticShield) },
 				
-				{ TextKey.TutorialThisIsMana, "это заряд для рывка" },
+				{ TextKey.TutorialThisIsMana, "убей для получения заряда рывка" },
 				{ TextKey.TutorialManaDisplay, "заряды рывка" },
 				{ TextKey.TutorialMoveHere, "встань тут" },
 				{ TextKey.TutorialDash, "рывок в позицию курсора" },

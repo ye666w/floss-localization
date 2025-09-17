@@ -121,7 +121,7 @@ namespace UnityWrappers.Localization.Resources
 				{ TextKey.UnlockMine, P(TextKey.WordMine) },
 				{ TextKey.UnlockStaticShield, P(TextKey.WordStaticShield) },
 				
-				{ TextKey.TutorialThisIsMana, "this is dash charge" },
+				{ TextKey.TutorialThisIsMana, "kill to gain a dash charge" },
 				{ TextKey.TutorialManaDisplay, "dash charges" },
 				{ TextKey.TutorialMoveHere, "stand here" },
 				{ TextKey.TutorialDash, "dash to cursor position" },

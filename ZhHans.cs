@@ -121,7 +121,7 @@ namespace UnityWrappers.Localization.Resources
 				{ TextKey.UnlockMine, P(TextKey.WordMine) },
 				{ TextKey.UnlockStaticShield, P(TextKey.WordStaticShield) },
 				
-				{ TextKey.TutorialThisIsMana, "这是冲刺能量" },
+				{ TextKey.TutorialThisIsMana, "击杀可获得一次冲刺能量" },
 				{ TextKey.TutorialManaDisplay, "冲刺能量" },
 				{ TextKey.TutorialMoveHere, "站在这里" },
 				{ TextKey.TutorialDash, "朝鼠标位置冲刺" },
