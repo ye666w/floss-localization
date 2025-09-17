@@ -19,6 +19,7 @@ namespace UnityWrappers.Localization.Resources
 <color=#99FF99>Koost</color>
 <color=#6699FF>BezDuyec</color>
 <link=""https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley""><color=#333333><u>Navisean</u></color></link>
+<color=#99FF99>netperemen</color>
 
 <size=150%><b>Playtesters:</b></size>
 <color=#FF6666>not_about_horns</color>
@@ -35,7 +36,6 @@ namespace UnityWrappers.Localization.Resources
 <link=""https://t.me/dogdraw""><color=#99FF99><u>Серёжа</u></color></link>
 <link=""https://store.steampowered.com/search/?developer=AlisterGrig""><color=#F0F0F0><u>AlisterGrig</u></color></link>
 <link=""https://github.com/Zeph1rr""><color=#9966CC><u>Zeph1rr</u></color></link>
-<color=#99FF99>netperemen</color>
 <color=#9966CC>Exesnik/Николай-Моисеенко</color>
 <color=#FFA500>Грибной Темщик</color>
 <color=#9966CC>Warriorroq</color>
@@ -57,7 +57,8 @@ namespace UnityWrappers.Localization.Resources
 <color=#6699FF>Vlads ""BlindChaosPanda"" Ovsjaņņikovs</color>
 <color=#99FF99>Koost</color>
 <color=#6699FF>BezDuyec</color>
-<color=#333333>Navisean</color>"
+<color=#333333>Navisean</color>
+<color=#99FF99>netperemen</color>"
             },
             {
 	            TextKey.SubtitlesPlaytesters1,
@@ -70,7 +71,7 @@ namespace UnityWrappers.Localization.Resources
             },
             {
 	            TextKey.SubtitlesPlaytesters2,
-	            @"
+	            @"<size=150%><b> </b></size>
 <color=#F0F0F0>PotatoRAT-o</color>
 <color=#FFA500>FunkyChickenCape</color>
 <color=#FFFF99>Gerxest</color>
@@ -79,17 +80,16 @@ namespace UnityWrappers.Localization.Resources
             },
             {
 	            TextKey.SubtitlesPlaytesters3,
-	            @"
+	            @"<size=150%><b> </b></size>
 <color=#6699FF>eva_kyss</color>
 <color=#99FF99>Серёжа</color>
 <color=#F0F0F0>AlisterGrig</color>
-<color=#99FF99>netperemen</color>
-<color=#9966CC>Exesnik/Николай-Моисеенко</color>"
+<color=#9966CC>Exesnik/Николай-Моисеенко</color>
+<color=#FFA500>Грибной Темщик</color>"
             },
             {
 	            TextKey.SubtitlesPlaytesters4,
-	            @"
-<color=#FFA500>Грибной Темщик</color>
+	            @"<size=150%><b> </b></size>
 <color=#9966CC>Zeph1rr</color>
 <color=#FFA500>ZOLOTIST</color>
 <color=#9966CC>Warriorroq</color>"
