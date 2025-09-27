@@ -12,7 +12,8 @@ namespace UnityWrappers.Localization.Resources
 <link=""https://radiocat.tilda.ws/""><color=#9966CC><u>ayvan_synkovski</u></color><size=70%> (lead)</size></link>
 <link=""https://www.youtube.com/@qutricoth""><color=#99FF99><u>qutricoth</u></color><size=70%> (music + sound)</size></link>
 <link=""https://soundcloud.com/cyberhunt""><color=#FFFF99><u>Cyberhunter</u></color><size=70%> (music + sound)</size></link>
-<color=#F0F0F0>mazes_solved</color><size=70%> (music)</size>
+<color=#F0F0F0>mazes_solved</color><size=70%> (music + sound)</size>
+<link=""https://linktr.ee/TheEvilCookie""><color=#FF6666><u>The Evil Cookie</u></color><size=70%> (music)</size></link>
 
 <size=150%><b>Localization:</b></size>
 <link=""https://bsky.app/profile/batufsik.bsky.social""><color=#6699FF><u>Batufsik</u></color><size=70%> (zh)</size></link>
@@ -43,7 +44,8 @@ namespace UnityWrappers.Localization.Resources
 <color=#FFA500>Грибной Темщик</color>
 <color=#9966CC>Warriorroq</color>
 <color=#FFA500>ZOLOTIST</color>
-<link=""https://store.steampowered.com/app/2196030/KIRU_KIRU_KIRU/""><color=#99FF99><u>KiShKa</u></color></link>"
+<link=""https://store.steampowered.com/app/2196030/KIRU_KIRU_KIRU/""><color=#99FF99><u>KiShKa</u></color></link>
+<color=#FFFF99>X3</color>"
             },
             {
 	            TextKey.SubtitlesSound,
@@ -51,7 +53,8 @@ namespace UnityWrappers.Localization.Resources
 <color=#9966CC>ayvan_synkovski</color><size=70%> (lead)</size>
 <color=#99FF99>qutricoth</color><size=70%> (music + sound)</size>
 <color=#FFFF99>Cyberhunter</color><size=70%> (music + sound)</size>
-<color=#F0F0F0>mazes_solved</color><size=70%> (music)</size>"
+<color=#F0F0F0>mazes_solved</color><size=70%> (music + sound)</size>
+<color=#FF6666>The Evil Cookie</color><size=70%> (music)</size>"
             },
             {
 	            TextKey.SubtitlesLocalization,
@@ -100,7 +103,8 @@ namespace UnityWrappers.Localization.Resources
 <color=#9966CC>Zeph1rr</color>
 <color=#FFA500>ZOLOTIST</color>
 <color=#9966CC>Warriorroq</color>
-<color=#99FF99>KiShKa</color>"
+<color=#99FF99>KiShKa</color>
+<color=#FFFF99>X3</color>"
             }
         };
     }
