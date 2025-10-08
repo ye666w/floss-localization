@@ -12,7 +12,7 @@ namespace UnityWrappers.Localization.Resources
 <link=""https://radiocat.tilda.ws/""><color=#9966CC><u>ayvan_synkovski</u></color><size=70%> (lead)</size></link>
 <link=""https://www.youtube.com/@qutricoth""><color=#99FF99><u>qutricoth</u></color><size=70%> (music + sound)</size></link>
 <link=""https://soundcloud.com/cyberhunt""><color=#FFFF99><u>Cyberhunter</u></color><size=70%> (music + sound)</size></link>
-<color=#F0F0F0>mazes_solved</color><size=70%> (music + sound)</size>
+<link=""http://discordapp.com/users/1019317543229468752""><color=#F0F0F0><u>mazes_solved</u></color><size=70%> (music + sound)</size></link>
 <link=""https://linktr.ee/TheEvilCookie""><color=#FF6666><u>The Evil Cookie</u></color><size=70%> (music)</size></link>
 
 <size=150%><b>Localization:</b></size>
