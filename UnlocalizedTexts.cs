@@ -10,20 +10,19 @@ namespace UnityWrappers.Localization.Resources
                 TextKey.SubtitlesAll,
                 @"<size=150%><b>Sound:</b></size>
 <link=""https://radiocat.tilda.ws/""><color=#9966CC><u>ayvan_synkovski</u></color><size=70%> (lead)</size></link>
-<link=""https://www.youtube.com/@qutricoth""><color=#99FF99><u>qutricoth</u></color><size=70%> (music + sound)</size></link>
-<link=""https://soundcloud.com/cyberhunt""><color=#FFFF99><u>Cyberhunter</u></color><size=70%> (music + sound)</size></link>
-<link=""http://discordapp.com/users/1019317543229468752""><color=#F0F0F0><u>mazes_solved</u></color><size=70%> (music + sound)</size></link>
+<link=""https://www.youtube.com/@qutricoth""><color=#99FF99><u>qutricoth</u></color><size=70%> (sound)</size></link>
+mazes_solved <size=70%> (music)</size>
 <link=""https://linktr.ee/TheEvilCookie""><color=#FF6666><u>The Evil Cookie</u></color><size=70%> (music)</size></link>
 
 <size=150%><b>Localization:</b></size>
 <link=""https://bsky.app/profile/batufsik.bsky.social""><color=#6699FF><u>Batufsik</u></color><size=70%> (zh)</size></link>
+<link=""https://steamcommunity.com/profiles/76561199393578930/""><color=#99FF99><u>UMOPCLONE</u></color><size=70%> (ko)</size></link>
 
 <size=150%><b>Special thanks:</b></size>
-<link=""https://blindchaospanda.itch.io/""><color=#6699FF><u>BlindChaosPanda</u></color></link>
+<link=""https://blindchaospanda.itch.io/""><color=#6699FF><u>Vlads ""BlindChaosPanda"" Ovsjaņņikovs</u></color></link>
 <color=#99FF99>Koost</color>
 <color=#6699FF>BezDuyec</color>
 <link=""https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley""><color=#333333><u>Navisean</u></color></link>
-<color=#99FF99>netperemen</color>
 
 <size=150%><b>Playtesters:</b></size>
 <color=#FF6666>not_about_horns</color>
@@ -40,6 +39,7 @@ namespace UnityWrappers.Localization.Resources
 <link=""https://t.me/dogdraw""><color=#99FF99><u>Серёжа</u></color></link>
 <link=""https://store.steampowered.com/search/?developer=AlisterGrig""><color=#F0F0F0><u>AlisterGrig</u></color></link>
 <link=""https://github.com/Zeph1rr""><color=#9966CC><u>Zeph1rr</u></color></link>
+<color=#99FF99>netperemen</color>
 <color=#9966CC>Exesnik/Николай-Моисеенко</color>
 <color=#FFA500>Грибной Темщик</color>
 <color=#9966CC>Warriorroq</color>
@@ -59,7 +59,8 @@ namespace UnityWrappers.Localization.Resources
             {
 	            TextKey.SubtitlesLocalization,
 	            @"<size=150%><b>Localization:</b></size>
-<color=#6699FF>Batufsik</color><size=70%> (zh)</size>"
+<color=#6699FF>Batufsik</color><size=70%> (zh)</size>
+<color=#99FF99>UMOPCLONE</color><size=70%> (ko)</size>"
             },
             {
 	            TextKey.SubtitlesSpecial,
