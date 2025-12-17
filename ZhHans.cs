@@ -22,12 +22,12 @@ namespace UnityWrappers.Localization.Resources
 			textsTranslate = new Dictionary<TextKey, string>
 			{
 				{ TextKey.WordPistol, P(TextKey.WordPistol) },
-				{ TextKey.WordX5, "冷却时间" },
+				{ TextKey.WordX5, "x5" },
 				{ TextKey.WordSword, P(TextKey.WordSword) },
 				{ TextKey.WordShield, P(TextKey.WordShield) },
 				{ TextKey.WordDash, "冲刺" },
 				{ TextKey.WordBow, P(TextKey.WordBow) },
-				{ TextKey.WordX3, "力量" },
+				{ TextKey.WordX3, "x3" },
 				{ TextKey.WordMine, P(TextKey.WordMine) },
 				{ TextKey.WordStaticShield, P(TextKey.WordStaticShield) },
 
@@ -92,10 +92,11 @@ namespace UnityWrappers.Localization.Resources
 				{ TextKey.MenuSettingsVideoMotionBlur, "动态模糊" },
 				{ TextKey.MenuSettingsVideoScreenShake, "屏幕震动" },
 				{ TextKey.MenuSettingsVideoVSync, "vSync" },
-				{ TextKey.MenuSettingsVideoAntiAliasing, "antiAliasing" },
-				{ TextKey.MenuSettingsVideoZeroQueuedFrames, "zeroQueuedFrames" },
+				{ TextKey.MenuSettingsVideoAntiAliasing, "anti aliasing" },
+				{ TextKey.MenuSettingsVideoZeroQueuedFrames, "zero queued frames" },
 				
 				{ TextKey.MenuSettingsMouseSensitivity, "鼠标灵敏度" },
+				{ TextKey.MenuSettingsMouseHardwareCursor, "hardware cursor" },
 				{ TextKey.MenuSettingsControlsWheelCooldown, "滚轮冷却时间" },
 				
 				{ TextKey.MenuSettingsControlBindingsPage, "按键绑定" },

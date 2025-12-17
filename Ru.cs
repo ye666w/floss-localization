@@ -22,12 +22,12 @@ namespace UnityWrappers.Localization.Resources
 			textsTranslate = new Dictionary<TextKey, string>
 			{
 				{ TextKey.WordPistol, P(TextKey.WordPistol) },
-				{ TextKey.WordX5, "кулдаун" },
+				{ TextKey.WordX5, "x5" },
 				{ TextKey.WordSword, P(TextKey.WordSword) },
 				{ TextKey.WordShield, P(TextKey.WordShield) },
 				{ TextKey.WordDash, "рывок" },
 				{ TextKey.WordBow, P(TextKey.WordBow) },
-				{ TextKey.WordX3, "сила" },
+				{ TextKey.WordX3, "x3" },
 				{ TextKey.WordMine, P(TextKey.WordMine) },
 				{ TextKey.WordStaticShield, P(TextKey.WordStaticShield) },
 
@@ -92,10 +92,11 @@ namespace UnityWrappers.Localization.Resources
 				{ TextKey.MenuSettingsVideoMotionBlur, "размытие" },
 				{ TextKey.MenuSettingsVideoScreenShake, "тряска экрана" },
 				{ TextKey.MenuSettingsVideoVSync, "vSync" },
-				{ TextKey.MenuSettingsVideoAntiAliasing, "antiAliasing" },
-				{ TextKey.MenuSettingsVideoZeroQueuedFrames, "zeroQueuedFrames" },
+				{ TextKey.MenuSettingsVideoAntiAliasing, "anti aliasing" },
+				{ TextKey.MenuSettingsVideoZeroQueuedFrames, "zero queued frames" },
 				
 				{ TextKey.MenuSettingsMouseSensitivity, "чувствительность мыши" },
+				{ TextKey.MenuSettingsMouseHardwareCursor, "hardware cursor" },
 				{ TextKey.MenuSettingsControlsWheelCooldown, "кулдаун колеса мыши" },
 				
 				{ TextKey.MenuSettingsControlBindingsPage, "бинды" },

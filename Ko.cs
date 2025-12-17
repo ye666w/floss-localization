@@ -22,12 +22,12 @@ namespace UnityWrappers.Localization.Resources
 			textsTranslate = new Dictionary<TextKey, string>
 			{
 				{ TextKey.WordPistol, P(TextKey.WordPistol) },
-				{ TextKey.WordX5, "쿨타임 감소" },
+				{ TextKey.WordX5, "x5" },
 				{ TextKey.WordSword, P(TextKey.WordSword) },
 				{ TextKey.WordShield, P(TextKey.WordShield) },
 				{ TextKey.WordDash, "대쉬" },
 				{ TextKey.WordBow, P(TextKey.WordBow) },
-				{ TextKey.WordX3, "파워업" },
+				{ TextKey.WordX3, "x3" },
 				{ TextKey.WordMine, P(TextKey.WordMine) },
 				{ TextKey.WordStaticShield, P(TextKey.WordStaticShield) },
 				
@@ -92,10 +92,11 @@ namespace UnityWrappers.Localization.Resources
 				{ TextKey.MenuSettingsVideoMotionBlur, "모션 블러" },
 				{ TextKey.MenuSettingsVideoScreenShake, "화면 흔들림" },
 				{ TextKey.MenuSettingsVideoVSync, "vSync" },
-				{ TextKey.MenuSettingsVideoAntiAliasing, "antiAliasing" },
-				{ TextKey.MenuSettingsVideoZeroQueuedFrames, "zeroQueuedFrames" },
+				{ TextKey.MenuSettingsVideoAntiAliasing, "anti aliasing" },
+				{ TextKey.MenuSettingsVideoZeroQueuedFrames, "zero queued frames" },
 				
 				{ TextKey.MenuSettingsMouseSensitivity, "마우스 민감도" },
+				{ TextKey.MenuSettingsMouseHardwareCursor, "hardware cursor" },
 				{ TextKey.MenuSettingsControlsWheelCooldown, "마우스 휠 쿨타임" },
 				
 				{ TextKey.MenuSettingsControlBindingsPage, "키 설정" },
