@@ -91,6 +91,9 @@ namespace UnityWrappers.Localization.Resources
 				{ TextKey.MenuSettingsVideoFullscreen, "全屏" },
 				{ TextKey.MenuSettingsVideoMotionBlur, "动态模糊" },
 				{ TextKey.MenuSettingsVideoScreenShake, "屏幕震动" },
+				{ TextKey.MenuSettingsVideoVSync, "vSync" },
+				{ TextKey.MenuSettingsVideoAntiAliasing, "antiAliasing" },
+				{ TextKey.MenuSettingsVideoZeroQueuedFrames, "zeroQueuedFrames" },
 				
 				{ TextKey.MenuSettingsMouseSensitivity, "鼠标灵敏度" },
 				{ TextKey.MenuSettingsControlsWheelCooldown, "滚轮冷却时间" },
