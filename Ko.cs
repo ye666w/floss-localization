@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace UnityWrappers.Localization.Resources
+namespace UnityWrappers.Localization.TextResources
 {
 	public class Ko : TextResource
 	{
