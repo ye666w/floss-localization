@@ -173,8 +173,10 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.BindingLeftShift, "shift" },
 				{ TextKey.BindingSpace, "space" },
 				
-				{ TextKey.ServerConnectFailed, "server status: offline" },
-				{ TextKey.ServerConnectSuccess, "server status: online" }
+				{ TextKey.ServerConnectFailed, $"server status: {T("offline", ColorType.Red)}" },
+				{ TextKey.ServerConnectSuccess, $"server status: {T("online", ColorType.Green)}" },
+				{ TextKey.ServerScoreUpdateFailed, $"score {T("not updated", ColorType.Red)}" },
+				{ TextKey.ServerScoreUpdated, $"score {T("updated", ColorType.Green)}" },
 			};
 		}
 	}
