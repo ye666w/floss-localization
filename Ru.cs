@@ -79,6 +79,7 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.MenuSettingsVideoPage, "видео" },
 				{ TextKey.MenuSettingsMousePage, "мышь" },
 				{ TextKey.MenuSettingsControlsPage, "управление" },
+				{ TextKey.MenuSettingsConnectToServer, "online" },
 				{ TextKey.MenuSettingsSavesPage, "сохранения" },
 				{ TextKey.MenuSettingsCreditsPage, "авторы" },
 				{ TextKey.MenuSettingsGameExit, $"{T("выйти из игры", ColorType.Red)}" },
@@ -170,7 +171,10 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.BindingSMBF, "боковая кнопка мыши" },
 				{ TextKey.BindingSMBB, "боковая кнопка мыши" },
 				{ TextKey.BindingLeftShift, "шифт" },
-				{ TextKey.BindingSpace, "пробел" }
+				{ TextKey.BindingSpace, "пробел" },
+				
+				{ TextKey.ServerConnectFailed, "статус сервера: offline" },
+				{ TextKey.ServerConnectSuccess, "статус сервера: online" }
 			};
 		}
 	}

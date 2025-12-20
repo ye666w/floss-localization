@@ -79,6 +79,7 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.MenuSettingsVideoPage, "video" },
 				{ TextKey.MenuSettingsMousePage, "mouse" },
 				{ TextKey.MenuSettingsControlsPage, "controls" },
+				{ TextKey.MenuSettingsConnectToServer, "online" },
 				{ TextKey.MenuSettingsSavesPage, "saves" },
 				{ TextKey.MenuSettingsCreditsPage, "credits" },
 				{ TextKey.MenuSettingsGameExit, $"{T("exit the game", ColorType.Red)}" },
@@ -171,6 +172,9 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.BindingSMBB, "mouse back button" },
 				{ TextKey.BindingLeftShift, "shift" },
 				{ TextKey.BindingSpace, "space" },
+				
+				{ TextKey.ServerConnectFailed, "server status: offline" },
+				{ TextKey.ServerConnectSuccess, "server status: online" }
 			};
 		}
 	}

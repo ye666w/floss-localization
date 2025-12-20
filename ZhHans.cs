@@ -79,6 +79,7 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.MenuSettingsVideoPage, "画面" },
 				{ TextKey.MenuSettingsMousePage, "鼠标" },
 				{ TextKey.MenuSettingsControlsPage, "操作" },
+				{ TextKey.MenuSettingsConnectToServer, "online" },
 				{ TextKey.MenuSettingsSavesPage, "存档" },
 				{ TextKey.MenuSettingsCreditsPage, "制作人员" },
 				{ TextKey.MenuSettingsGameExit, $"{T("退出游戏", ColorType.Red)}" },
@@ -170,7 +171,10 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.BindingSMBF, "鼠标前进键" },
 				{ TextKey.BindingSMBB, "鼠标后退键" },
 				{ TextKey.BindingLeftShift, "Shift" },
-				{ TextKey.BindingSpace, "空白" }
+				{ TextKey.BindingSpace, "空白" },
+
+				{ TextKey.ServerConnectFailed, "server status: offline" },
+				{ TextKey.ServerConnectSuccess, "server status: online" }
 			};
 		}
 	}

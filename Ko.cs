@@ -79,6 +79,7 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.MenuSettingsVideoPage, "비디오" },
 				{ TextKey.MenuSettingsMousePage, "마우스" },
 				{ TextKey.MenuSettingsControlsPage, "조작" },
+				{ TextKey.MenuSettingsConnectToServer, "online" },
 				{ TextKey.MenuSettingsSavesPage, "세이브" },
 				{ TextKey.MenuSettingsCreditsPage, "크레딧" },
 				{ TextKey.MenuSettingsGameExit, $"{T("게임 나가기", ColorType.Red)}" },
@@ -171,6 +172,9 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.BindingSMBB, "뒤로 가기 버튼" },
 				{ TextKey.BindingLeftShift, "shift" },
 				{ TextKey.BindingSpace, "space" },
+
+				{ TextKey.ServerConnectFailed, "server status: offline" },
+				{ TextKey.ServerConnectSuccess, "server status: online" }
 			};
 		}
 	}
