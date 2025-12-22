@@ -174,7 +174,8 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.BindingSpace, "空白" },
 
 				{ TextKey.ServerConnectFailed, $"server status: {T("offline", ColorType.Red)}" },
-				{ TextKey.ServerConnectSuccess, $"server status: {T("online", ColorType.Green)}" }
+				{ TextKey.ServerConnectSuccess, $"server status: {T("online", ColorType.Green)}" },
+				{ TextKey.ServerConnecting, "connecting" },
 			};
 		}
 	}
