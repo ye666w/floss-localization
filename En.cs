@@ -178,6 +178,7 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.ServerScoreUpdateFailed, $"score {T("not updated", ColorType.Red)}" },
 				{ TextKey.ServerScoreUpdated, $"score {T("updated", ColorType.Green)}" },
 				{ TextKey.ServerConnecting, "connecting" },
+				{ TextKey.ServerLoading, "loading" },
 			};
 		}
 	}
