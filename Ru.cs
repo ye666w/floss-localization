@@ -175,6 +175,8 @@ namespace UnityWrappers.Localization.TextResources
 				
 				{ TextKey.ServerConnectFailed, $"статус сервера: {T("offline", ColorType.Red)}" },
 				{ TextKey.ServerConnectSuccess, $"статус сервера: {T("online", ColorType.Green)}" },
+				{ TextKey.ServerScoreUpdateFailed, $"счет {T("не обновлен", ColorType.Red)}" },
+				{ TextKey.ServerScoreUpdated, $"счет {T("обновлен", ColorType.Green)}" },
 				{ TextKey.ServerConnecting, "подключение" },
 				{ TextKey.ServerLoading, "загрузка" },
 			};
