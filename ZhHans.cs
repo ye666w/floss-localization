@@ -114,6 +114,7 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.MenuSettingsControlYellowWeapon, $"{T("射击", ColorType.Yellow)}" },
 				{ TextKey.MenuSettingsControlDash, "冲刺" },
 				{ TextKey.MenuSettingsControlWeaponModifer, "武器切换" },
+				{ TextKey.MenuSettingsControlRestart, "restart" },
 				
 				{ TextKey.MenuSettingsSavesImport, $"{T("导入存档", ColorType.Red)}" },
 				{ TextKey.MenuSettingsSavesExport, "导出存档" },

@@ -114,6 +114,7 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.MenuSettingsControlYellowWeapon, $"{T("발사", ColorType.Yellow)}" },
 				{ TextKey.MenuSettingsControlDash, "대시" },
 				{ TextKey.MenuSettingsControlWeaponModifer, "무기 모드 전환" },
+				{ TextKey.MenuSettingsControlRestart, "restart" },
 				
 				{ TextKey.MenuSettingsSavesImport, $"{T("세이브 가져오기", ColorType.Red)}" },
 				{ TextKey.MenuSettingsSavesExport, "세이브 내보내기" },
