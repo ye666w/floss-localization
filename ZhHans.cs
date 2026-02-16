@@ -163,7 +163,6 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.SetupGuideNoSideButtons, "我没有鼠标侧键" },
 				{ TextKey.SetupGuideWheelScroll, "如果可以，请滚动一下鼠标滚轮" },
 				{ TextKey.SetupGuideNoWheelScroll, "滚轮不可用" },
-				{ TextKey.SetupGuideMenuHint, "白色的光辉曾经笼罩一切...\n\n直至坠入自身的深渊，\n\n只留下黑暗与零散的余晖" },
 				
 				{ TextKey.BindingLMB, "鼠标左键" },
 				{ TextKey.BindingRMB, "鼠标右键" },

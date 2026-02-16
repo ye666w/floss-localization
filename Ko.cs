@@ -163,7 +163,6 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.SetupGuideNoSideButtons, "측면 버튼이 없습니다" },
 				{ TextKey.SetupGuideWheelScroll, "마우스 휠이 작동한다면 스크롤하세요" },
 				{ TextKey.SetupGuideNoWheelScroll, "스크롤 휠이 작동하지 않습니다" },
-				{ TextKey.SetupGuideMenuHint, "한때 하얀 광휘가 모든 것을 휩쓸었으나...\n\n그 광휘는 결국 스스로의 심연 속으로 떨어지고,\n\n남은 것은 어둠과 흩어진 빛의 메아리뿐이었다" },
 
 				{ TextKey.BindingLMB, "왼쪽 버튼" },
 				{ TextKey.BindingRMB, "오른쪽 버튼" },

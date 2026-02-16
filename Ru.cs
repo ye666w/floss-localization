@@ -163,7 +163,6 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.SetupGuideNoSideButtons, "у меня нет боковых кнопок" },
 				{ TextKey.SetupGuideWheelScroll, "покрути колесо мыши, если оно работает" },
 				{ TextKey.SetupGuideNoWheelScroll, "колесо мыши не работает" },
-				{ TextKey.SetupGuideMenuHint, "белое сияние некогда заливало всё...\n\nпока не пало в собственную бездну, \n\nоставив лишь тьму и рассеянные отблески" },
 				
 				{ TextKey.BindingLMB, "левая кнопка мыши" },
 				{ TextKey.BindingRMB, "правая кнопка мыши" },

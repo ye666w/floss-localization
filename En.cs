@@ -163,7 +163,6 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.SetupGuideNoSideButtons, "I don't have side buttons" },
 				{ TextKey.SetupGuideWheelScroll, "scroll the mouse wheel if it works" },
 				{ TextKey.SetupGuideNoWheelScroll, "the scroll wheel doesn't work" },
-				{ TextKey.SetupGuideMenuHint, "the white radiance once engulfed all...\n\nuntil it fell into its own abyss,\n\nleaving only darkness and scattered echoes of light" },
 
 				{ TextKey.BindingLMB, "left mouse button" },
 				{ TextKey.BindingRMB, "right mouse button" },
