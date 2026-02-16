@@ -133,8 +133,8 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.TutorialDash, "朝鼠标位置冲刺" },
 				{ TextKey.TutorialMouseWheel, "滚动鼠标滚轮" },
 				{ TextKey.TutorialDashWithShield, $"使用 {T("盾牌", ColorType.Yellow)} 冲刺" },
-				{ TextKey.TutorialPortalIsBroken, "传送门坏了\n只能回中心" },
-				{ TextKey.TutorialPortalIsBrokenAgain, "传送门又坏了" },
+				{ TextKey.TutorialPortalIsBroken, "随时返回中心" },
+				{ TextKey.TutorialPortalIsBrokenAgain, "返回中心" },
 				{ TextKey.TutorialX3, "一次射击击杀三名敌人\n可强化武器" },
 				
 				{ TextKey.TextReset, "重置" },

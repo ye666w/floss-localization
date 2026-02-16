@@ -133,8 +133,8 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.TutorialDash, "dash to cursor position" },
 				{ TextKey.TutorialMouseWheel, "scroll mouse wheel" },
 				{ TextKey.TutorialDashWithShield, $"make dash with {T("shield", ColorType.Yellow)}" },
-				{ TextKey.TutorialPortalIsBroken, "the developer broke the portal\nyou'll have to get back to the hub yourself" },
-				{ TextKey.TutorialPortalIsBrokenAgain, "portal is broken again" },
+				{ TextKey.TutorialPortalIsBroken, "return to the hub at any time" },
+				{ TextKey.TutorialPortalIsBrokenAgain, "return to the hub" },
 				{ TextKey.TutorialX3, "killing THREE enemies with a SINGLE shot\nempowers your guns" },
 
 				{ TextKey.TextReset, "reset" },

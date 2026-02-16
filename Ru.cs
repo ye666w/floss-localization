@@ -133,8 +133,8 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.TutorialDash, "рывок в позицию курсора" },
 				{ TextKey.TutorialMouseWheel, "прокрути колесо мыши" },
 				{ TextKey.TutorialDashWithShield, $"сделай рывок с {T("щитом", ColorType.Yellow)}" },
-				{ TextKey.TutorialPortalIsBroken, "разработчик сломал портал\nпридется вернуться в хаб самому" },
-				{ TextKey.TutorialPortalIsBrokenAgain, "портал опять сломан" },
+				{ TextKey.TutorialPortalIsBroken, "в любой момент вернуться в хаб" },
+				{ TextKey.TutorialPortalIsBrokenAgain, "вернуться в хаб" },
 				{ TextKey.TutorialX3, "убийство ТРЕХ противников ОДНИМ выстрелом\nусиливает пушки" },
 				
 				{ TextKey.TextReset, "сброс" },

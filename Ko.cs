@@ -133,8 +133,8 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.TutorialDash, "커서 위치로 대시하세요" },
 				{ TextKey.TutorialMouseWheel, "마우스 휠로 스크롤하세요" },
 				{ TextKey.TutorialDashWithShield, $"{T("방패", ColorType.Yellow)}와 함께 대시하세요" },
-				{ TextKey.TutorialPortalIsBroken, "개발자가 포탈을 고장 내버렸네요\n직접 허브로 돌아가야 합니다" },
-				{ TextKey.TutorialPortalIsBrokenAgain, "포탈이 또다시 작동하지 않습니다" },
+				{ TextKey.TutorialPortalIsBroken, "언제든지 허브로 돌아가기" },
+				{ TextKey.TutorialPortalIsBrokenAgain, "허브로 돌아가기" },
 				{ TextKey.TutorialX3, "한 발로 적 셋을 처치하면\n무기가 강화됩니다" },
 
 				{ TextKey.TextReset, "리셋" },
