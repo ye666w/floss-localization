@@ -61,7 +61,7 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.MenuSkillsShieldDescription, $"可防御 {T("子弹", ColorType.Yellow)} 和 {T("敌人", ColorType.Yellow)}" },
 				{ TextKey.MenuSkillsShieldX5, "充能恢复更快" },
 				{ TextKey.MenuSkillsShieldX3, "防御范围增加" },
-				{ TextKey.MenuSkillsShieldFeatures, "• 冲刺时可使用\n• 每次击杀都会恢复充能" },
+				{ TextKey.MenuSkillsShieldFeatures, "• 每次击杀都会恢复充能" },
 				
 				{ TextKey.MenuSkillsAuraDescription, $"可防御 {T("子弹", ColorType.Yellow)} 和 {T("敌人", ColorType.Yellow)}" },
 				{ TextKey.MenuSkillsAuraX5, "充能恢复更快" },

@@ -61,7 +61,7 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.MenuSkillsShieldDescription, $"Blocks {T("bullets", ColorType.Yellow)} and destroys {T("enemies", ColorType.Yellow)}" },
 				{ TextKey.MenuSkillsShieldX5, "Faster charge recovery" },
 				{ TextKey.MenuSkillsShieldX3, "Radius increases" },
-				{ TextKey.MenuSkillsShieldFeatures, "• Can be used during dash\n• Restores charge for each kill with any weapon" },
+				{ TextKey.MenuSkillsShieldFeatures, "• Restores charge for each kill with any weapon" },
 
 				{ TextKey.MenuSkillsAuraDescription, $"Blocks {T("bullets", ColorType.Yellow)} and {T("enemies", ColorType.Yellow)}" },
 				{ TextKey.MenuSkillsAuraX5, "Faster charge recovery" },

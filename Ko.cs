@@ -61,7 +61,7 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.MenuSkillsShieldDescription, $"{T("총알", ColorType.Yellow)} 차단 및 {T("적", ColorType.Yellow)} 파괴" },
 				{ TextKey.MenuSkillsShieldX5, "게이지 회복 속도 증가" },
 				{ TextKey.MenuSkillsShieldX3, "범위 증가" },
-				{ TextKey.MenuSkillsShieldFeatures, "• 대시 중에도 사용할 수 있습니다\n• 어떤 무기로든 적 처치 시 게이지가 회복됩니다" },
+				{ TextKey.MenuSkillsShieldFeatures, "• 어떤 무기로든 적 처치 시 게이지가 회복됩니다" },
 
 				{ TextKey.MenuSkillsAuraDescription, $"{T("총알", ColorType.Yellow)}과 {T("적", ColorType.Yellow)} 차단" },
 				{ TextKey.MenuSkillsAuraX5, "게이지 회복 속도 증가" },

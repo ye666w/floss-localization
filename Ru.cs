@@ -61,7 +61,7 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.MenuSkillsShieldDescription, $"Защищает от {T("пуль", ColorType.Yellow)} и {T("врагов", ColorType.Yellow)}" },
 				{ TextKey.MenuSkillsShieldX5, "Ускоряется восстановление заряда" },
 				{ TextKey.MenuSkillsShieldX3, "Увеличивается" },
-				{ TextKey.MenuSkillsShieldFeatures, "• Можно использовать во время рывка\n• Восстанавливает заряд за каждое убийство любым оружием" },
+				{ TextKey.MenuSkillsShieldFeatures, "• Восстанавливает заряд за каждое убийство любым оружием" },
 				
 				{ TextKey.MenuSkillsAuraDescription, $"Защищает от {T("пуль", ColorType.Yellow)} и {T("врагов", ColorType.Yellow)}" },
 				{ TextKey.MenuSkillsAuraX5, "Ускоряется восстановление заряда" },
