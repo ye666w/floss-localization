@@ -185,6 +185,7 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.LeaderboardPlayer, "player" },
 				{ TextKey.LeaderboardSeed, "seed" },
 				{ TextKey.LeaderboardScore, "score" },
+				{ TextKey.LeaderboardPortalsCount, "portals" },
 				{ TextKey.LeaderboardRandomSeed, "random" },
 				{ TextKey.LeaderboardInvalidSeedMessage, $"{T("seed must be 'random' or a valid integer", ColorType.Red)}" }
 			};
