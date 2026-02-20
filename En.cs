@@ -179,6 +179,11 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.ServerScoreUpdated, $"score {T("updated", ColorType.Green)}" },
 				{ TextKey.ServerConnecting, "connecting" },
 				{ TextKey.ServerLoading, "loading" },
+
+				{ TextKey.LeaderboardPlace, "#" },
+				{ TextKey.LeaderboardPlayer, "player" },
+				{ TextKey.LeaderboardSeed, "seed" },
+				{ TextKey.LeaderboardScore, "score" },
 			};
 		}
 	}
