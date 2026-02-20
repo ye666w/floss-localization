@@ -152,7 +152,7 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.TextX3, "x3" },
 				{ TextKey.TextFeatures, "Особенности:" },
 				{ TextKey.TextGetting, "Получение:" },
-				{ TextKey.TextMoreInfo, $"подробности - {T("ESC", ColorType.Red)}" },
+				{ TextKey.TextMoreInfo, $"подробности - {T("ESC", ColorType.Green)}" },
 				{ TextKey.TextApply, "применить" },
 				
 				{ TextKey.SetupGuideAnalytics, "разрешить сбор аналитики?" },
@@ -179,11 +179,14 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.ServerScoreUpdated, $"счет {T("обновлен", ColorType.Green)}" },
 				{ TextKey.ServerConnecting, "подключение" },
 				{ TextKey.ServerLoading, "загрузка" },
+				{ TextKey.ServerNoRecords, "no records" },
 				
 				{ TextKey.LeaderboardPlace, "#" },
 				{ TextKey.LeaderboardPlayer, "player" },
 				{ TextKey.LeaderboardSeed, "seed" },
 				{ TextKey.LeaderboardScore, "score" },
+				{ TextKey.LeaderboardRandomSeed, "random" },
+				{ TextKey.LeaderboardInvalidSeedMessage, $"{T("seed must be 'random' or a valid integer", ColorType.Red)}" }
 			};
 		}
 	}

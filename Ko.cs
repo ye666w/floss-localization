@@ -152,7 +152,7 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.TextX3, "x3" },
 				{ TextKey.TextFeatures, "기능:" },
 				{ TextKey.TextGetting, "조건:" },
-				{ TextKey.TextMoreInfo, $"자세한 정보는 {T("ESC", ColorType.Red)} 키를 눌러 확인하세요" },
+				{ TextKey.TextMoreInfo, $"자세한 정보는 {T("ESC", ColorType.Green)} 키를 눌러 확인하세요" },
 				{ TextKey.TextApply, "적용" },
 				
 				{ TextKey.SetupGuideAnalytics, "분석 데이터 수집을 허용하시겠습니까?" },
@@ -179,11 +179,14 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.ServerScoreUpdated, $"score {T("updated", ColorType.Green)}" },
 				{ TextKey.ServerConnecting, "connecting" },
 				{ TextKey.ServerLoading, "loading" },
+				{ TextKey.ServerNoRecords, "no records" },
 				
 				{ TextKey.LeaderboardPlace, "#" },
 				{ TextKey.LeaderboardPlayer, "player" },
 				{ TextKey.LeaderboardSeed, "seed" },
 				{ TextKey.LeaderboardScore, "score" },
+				{ TextKey.LeaderboardRandomSeed, "random" },
+				{ TextKey.LeaderboardInvalidSeedMessage, $"{T("seed must be 'random' or a valid integer", ColorType.Red)}" }
 			};
 		}
 	}

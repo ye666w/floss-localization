@@ -152,7 +152,7 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.TextX3, "x3" },
 				{ TextKey.TextFeatures, "特性:" },
 				{ TextKey.TextGetting, "获得方式:" },
-				{ TextKey.TextMoreInfo, $"详情 - {T("ESC", ColorType.Red)}" },
+				{ TextKey.TextMoreInfo, $"详情 - {T("ESC", ColorType.Green)}" },
 				{ TextKey.TextApply, "应用" },
 				
 				{ TextKey.SetupGuideAnalytics, "允许收集数据吗？" },
@@ -179,11 +179,14 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.ServerScoreUpdated, $"score {T("updated", ColorType.Green)}" },
 				{ TextKey.ServerConnecting, "connecting" },
 				{ TextKey.ServerLoading, "loading" },
+				{ TextKey.ServerNoRecords, "no records" },
 				
 				{ TextKey.LeaderboardPlace, "#" },
 				{ TextKey.LeaderboardPlayer, "player" },
 				{ TextKey.LeaderboardSeed, "seed" },
 				{ TextKey.LeaderboardScore, "score" },
+				{ TextKey.LeaderboardRandomSeed, "random" },
+				{ TextKey.LeaderboardInvalidSeedMessage, $"{T("seed must be 'random' or a valid integer", ColorType.Red)}" }
 			};
 		}
 	}

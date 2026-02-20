@@ -152,7 +152,7 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.TextX3, "x3" },
 				{ TextKey.TextFeatures, "Features:" },
 				{ TextKey.TextGetting, "Getting:" },
-				{ TextKey.TextMoreInfo, $"press {T("ESC", ColorType.Red)} for details" },
+				{ TextKey.TextMoreInfo, $"press {T("ESC", ColorType.Green)} for details" },
 				{ TextKey.TextApply, "apply" },
 				
 				{ TextKey.SetupGuideAnalytics, "allow analytics collection?" },
@@ -179,11 +179,14 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.ServerScoreUpdated, $"score {T("updated", ColorType.Green)}" },
 				{ TextKey.ServerConnecting, "connecting" },
 				{ TextKey.ServerLoading, "loading" },
+				{ TextKey.ServerNoRecords, "no records" },
 
 				{ TextKey.LeaderboardPlace, "#" },
 				{ TextKey.LeaderboardPlayer, "player" },
 				{ TextKey.LeaderboardSeed, "seed" },
 				{ TextKey.LeaderboardScore, "score" },
+				{ TextKey.LeaderboardRandomSeed, "random" },
+				{ TextKey.LeaderboardInvalidSeedMessage, $"{T("seed must be 'random' or a valid integer", ColorType.Red)}" }
 			};
 		}
 	}
