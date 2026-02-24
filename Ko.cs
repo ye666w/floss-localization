@@ -30,14 +30,14 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.WordX3, "x3" },
 				{ TextKey.WordMine, P(TextKey.WordMine) },
 				{ TextKey.WordStaticShield, P(TextKey.WordStaticShield) },
-				
+
 				{ TextKey.MenuPause, "일시정지" },
-				
+
 				{ TextKey.MenuSkillsTab, "스킬" },
 				{ TextKey.MenuSettingsTab, "설정" },
-				
+
 				{ TextKey.MenuSkillToHub, "허브로 돌아가기" },
-				
+
 				{ TextKey.MenuSkillsPistolDescription, "높은 발사 속도와 짧은 사거리" },
 				{ TextKey.MenuSkillsPistolX5, "발사 속도 증가" },
 				{ TextKey.MenuSkillsPistolX3, "샷건으로 전환" },
@@ -79,27 +79,27 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.MenuSettingsVideoPage, "비디오" },
 				{ TextKey.MenuSettingsMousePage, "마우스" },
 				{ TextKey.MenuSettingsControlsPage, "조작" },
-				{ TextKey.MenuSettingsConnectToServer, "online" },
+				{ TextKey.MenuSettingsConnectToServer, "network" },
 				{ TextKey.MenuSettingsSavesPage, "세이브" },
 				{ TextKey.MenuSettingsCreditsPage, "크레딧" },
 				{ TextKey.MenuSettingsGameExit, $"{T("게임 나가기", ColorType.Red)}" },
-				
+
 				{ TextKey.MenuSettingsSoundMasterVolume, "전체 음량" },
 				{ TextKey.MenuSettingsSoundMusicVolume, "음악" },
 				{ TextKey.MenuSettingsSoundEffectsVolume, "효과음" },
 				{ TextKey.MenuSettingsSoundUIVolume, "UI" },
-				
+
 				{ TextKey.MenuSettingsVideoFullscreen, "전체화면" },
 				{ TextKey.MenuSettingsVideoMotionBlur, "모션 블러" },
 				{ TextKey.MenuSettingsVideoScreenShake, "화면 흔들림" },
 				{ TextKey.MenuSettingsVideoVSync, "vSync" },
 				{ TextKey.MenuSettingsVideoAntiAliasing, "anti aliasing" },
 				{ TextKey.MenuSettingsVideoZeroQueuedFrames, "zero queued frames" },
-				
+
 				{ TextKey.MenuSettingsMouseSensitivity, "마우스 민감도" },
 				{ TextKey.MenuSettingsMouseHardwareCursor, "hardware cursor" },
 				{ TextKey.MenuSettingsControlsWheelCooldown, "마우스 휠 쿨타임" },
-				
+
 				{ TextKey.MenuSettingsControlBindingsPage, "키 설정" },
 				{ TextKey.MenuSettingsControlSchemePage, "조작 방식" },
 				{ TextKey.MenuSettingsControlPause, "일시정지" },
@@ -115,18 +115,18 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.MenuSettingsControlDash, "대시" },
 				{ TextKey.MenuSettingsControlWeaponModifer, "무기 모드 전환" },
 				{ TextKey.MenuSettingsControlRestart, "restart" },
-				
+
 				{ TextKey.MenuSettingsSavesImport, $"{T("세이브 가져오기", ColorType.Red)}" },
 				{ TextKey.MenuSettingsSavesExport, "세이브 내보내기" },
 				{ TextKey.MenuSettingsSavesUnlockAll, $"{T("모든 콘텐츠 잠금 해제", ColorType.Red)}"},
 				{ TextKey.MenuSettingsSavesReset, $"{T("세이브 리셋", ColorType.Red)}" },
-				
+
 				{ TextKey.MenuSettingsCreditsTwitter, $"{T("링크", ColorType.Blue)}" },
-				
+
 				{ TextKey.UnlockBow, P(TextKey.WordBow) },
 				{ TextKey.UnlockMine, P(TextKey.WordMine) },
 				{ TextKey.UnlockStaticShield, P(TextKey.WordStaticShield) },
-				
+
 				{ TextKey.TutorialThisIsMana, "적을 처치하면 대시가 충전됩니다" },
 				{ TextKey.TutorialManaDisplay, "대시 게이지" },
 				{ TextKey.TutorialMoveHere, "여기에 서세요" },
@@ -154,7 +154,7 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.TextGetting, "조건:" },
 				{ TextKey.TextMoreInfo, $"자세한 정보는 {T("ESC", ColorType.Green)} 키를 눌러 확인하세요" },
 				{ TextKey.TextApply, "적용" },
-				
+
 				{ TextKey.SetupGuideAnalytics, "분석 데이터 수집을 허용하시겠습니까?" },
 				{ TextKey.SetupGuideHaveMouse, "입력 장치를 선택하세요: 마우스 또는 터치패드" },
 				{ TextKey.SetupGuideMouse, "마우스" },
@@ -173,14 +173,38 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.BindingLeftShift, "shift" },
 				{ TextKey.BindingSpace, "space" },
 
-				{ TextKey.ServerConnectFailed, $"server status: {T("offline", ColorType.Red)}" },
-				{ TextKey.ServerConnectSuccess, $"server status: {T("online", ColorType.Green)}" },
-				{ TextKey.ServerScoreUpdateFailed, $"score {T("not updated", ColorType.Red)}" },
-				{ TextKey.ServerScoreUpdated, $"score {T("updated", ColorType.Green)}" },
-				{ TextKey.ServerConnecting, "connecting" },
-				{ TextKey.ServerLoading, "loading" },
-				{ TextKey.ServerNoRecords, "no records" },
-				
+				{ TextKey.ServerStatusOffline, $"{T("오프라인", ColorType.Red)}" },
+				{ TextKey.ServerStatusOnline, $"{T("온라인", ColorType.Green)}" },
+				{ TextKey.ServerScoreUpdateFailed, $"{T("갱신되지 않음", ColorType.Red)}" },
+				{ TextKey.ServerScoreUpdated, $"{T("갱신됨", ColorType.Green)}" },
+				{ TextKey.ServerStatusChecking, "연결 중" },
+				{ TextKey.ServerLoading, "로딩 중" },
+				{ TextKey.ServerNoRecords, "기록 없음" },
+				{ TextKey.ServerStatusLabel, "서버" },
+				{ TextKey.ServerChecking, "확인 중" },
+				{ TextKey.ConnectionStatusLabel, "연결" },
+				{ TextKey.ServerStatusAvailable, $"{T("사용 가능", ColorType.Green)}" },
+				{ TextKey.ConnectionStatusConnected, $"{T("연결됨", ColorType.Green)}" },
+				{ TextKey.ServerClientOutdated, $"{T("게임 클라이언트가 오래되었습니다", ColorType.Red)}" },
+				{ TextKey.ServerClientSteamOffline, $"{T("게임 클라이언트가 Steam에 연결되어 있지 않습니다", ColorType.Red)}" },
+				{ TextKey.ServerUnavailable, $"{T("서버를 사용할 수 없습니다", ColorType.Red)}" },
+				{ TextKey.ServerAuthorizationError, $"{T("인증 오류", ColorType.Red)}" },
+				{ TextKey.SteamStatusLabel, "steam" },
+				{ TextKey.SteamStatusAvailable, $"{T("연결됨", ColorType.Green)}" },
+				{ TextKey.SteamStatusUnavailable, $"{T("연결 안 됨", ColorType.Red)}" },
+				{ TextKey.ConnectionSteamRequired, $"{T("Steam 연결이 필요합니다", ColorType.Red)}" },
+				{ TextKey.ConnectionConnectingToServer, "서버에 연결 중" },
+				{ TextKey.GameVersionStatusLabel, "게임 버전" },
+				{ TextKey.AuthorizationStatusLabel, "인증" },
+				{ TextKey.AuthorizationStatusSuccess, $"{T("성공", ColorType.Green)}" },
+				{ TextKey.AuthorizationStatusFailed, $"{T("실패", ColorType.Red)}" },
+				{ TextKey.ConnectionResultSuccess, $"{T("서버에 연결됨", ColorType.Green)}" },
+				{ TextKey.ConnectionResultFailed, $"{T("서버 연결 실패", ColorType.Red)}" },
+				{ TextKey.NetworkGameModeLabel, "게임 모드" },
+				{ TextKey.NetworkSwitchMode, "switch mode" },
+				{ TextKey.NetworkRetryConnection, "연결 다시 시도" },
+				{ TextKey.ServerClientUpdateRequired, $"{T("게임 업데이트가 필요합니다", ColorType.Red)}" },
+
 				{ TextKey.LeaderboardPlace, "#" },
 				{ TextKey.LeaderboardPlayer, "player" },
 				{ TextKey.LeaderboardSeed, "seed" },

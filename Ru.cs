@@ -32,74 +32,74 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.WordStaticShield, P(TextKey.WordStaticShield) },
 
 				{ TextKey.MenuPause, "пауза" },
-				
+
 				{ TextKey.MenuSkillsTab, "навыки" },
 				{ TextKey.MenuSettingsTab, "настройки" },
-				
+
 				{ TextKey.MenuSkillToHub, "вернуться в хаб" },
-				
+
 				{ TextKey.MenuSkillsPistolDescription, "Высокая скорострельность, но малая дальность" },
 				{ TextKey.MenuSkillsPistolX5, "Повышается скорострельность" },
 				{ TextKey.MenuSkillsPistolX3, "Превращается в дробовик" },
 				{ TextKey.MenuSkillsPistolFeatures, "" },
-				
+
 				{ TextKey.MenuSkillsBowDescription, "Низкая скорострельность, но неограниченная дальность" },
 				{ TextKey.MenuSkillsBowX5, "Повышается скорость зарядки" },
 				{ TextKey.MenuSkillsBowX3, "Пробивает белые щиты" },
 				{ TextKey.MenuSkillsBowFeatures, "• Заряжается на 1/3 за каждое убийство любым оружием\n• Пробивает до трех противников" },
-				
+
 				{ TextKey.MenuSkillsSwordDescription, "Ближний бой" },
 				{ TextKey.MenuSkillsSwordX5, "Повышается скорость удара" },
 				{ TextKey.MenuSkillsSwordX3, "Увеличивается дальность поражения" },
 				{ TextKey.MenuSkillsSwordFeatures, "" },
-				
+
 				{ TextKey.MenuSkillsMineDescription, "Активируется при касании врага" },
 				{ TextKey.MenuSkillsMineX5, "Повышается скорострельность" },
 				{ TextKey.MenuSkillsMineX3, "Увеличивается радиус поражения" },
 				{ TextKey.MenuSkillsMineFeatures, $"• Метается {T("мечом", ColorType.Blue)}\n• Активируется {T("выстрелом", ColorType.Red)}" },
-				
+
 				{ TextKey.MenuSkillsShieldDescription, $"Защищает от {T("пуль", ColorType.Yellow)} и {T("врагов", ColorType.Yellow)}" },
 				{ TextKey.MenuSkillsShieldX5, "Ускоряется восстановление заряда" },
 				{ TextKey.MenuSkillsShieldX3, "Увеличивается" },
 				{ TextKey.MenuSkillsShieldFeatures, "• Восстанавливает заряд за каждое убийство любым оружием" },
-				
+
 				{ TextKey.MenuSkillsAuraDescription, $"Защищает от {T("пуль", ColorType.Yellow)} и {T("врагов", ColorType.Yellow)}" },
 				{ TextKey.MenuSkillsAuraX5, "Ускоряется восстановление заряда" },
 				{ TextKey.MenuSkillsAuraX3, "Увеличивается радиус" },
 				{ TextKey.MenuSkillsAuraFeatures, "• Дает один заряд рывка при установке" },
-				
+
 				{ TextKey.MenuSkillsX5Description, "Увеличивает скорострельность пушек" },
 				{ TextKey.MenuSkillsX5Getting, "Быстро убить пятерых противников" },
-				
+
 				{ TextKey.MenuSkillsX3Description, "Усиливает пушки" },
 				{ TextKey.MenuSkillsX3Getting, "Убить трёх противников одним снарядом" },
-				
+
 				{ TextKey.MenuSettingsLanguagePage, "язык" },
 				{ TextKey.MenuSettingsSoundPage, "звук" },
 				{ TextKey.MenuSettingsVideoPage, "видео" },
 				{ TextKey.MenuSettingsMousePage, "мышь" },
 				{ TextKey.MenuSettingsControlsPage, "управление" },
-				{ TextKey.MenuSettingsConnectToServer, "online" },
+				{ TextKey.MenuSettingsConnectToServer, "network" },
 				{ TextKey.MenuSettingsSavesPage, "сохранения" },
 				{ TextKey.MenuSettingsCreditsPage, "авторы" },
 				{ TextKey.MenuSettingsGameExit, $"{T("выйти из игры", ColorType.Red)}" },
-				
+
 				{ TextKey.MenuSettingsSoundMusicVolume, "музыка" },
 				{ TextKey.MenuSettingsSoundMasterVolume, "мастер" },
 				{ TextKey.MenuSettingsSoundEffectsVolume, "эффекты" },
 				{ TextKey.MenuSettingsSoundUIVolume, "интерфейс" },
-				
+
 				{ TextKey.MenuSettingsVideoFullscreen, "на весь экран" },
 				{ TextKey.MenuSettingsVideoMotionBlur, "размытие" },
 				{ TextKey.MenuSettingsVideoScreenShake, "тряска экрана" },
 				{ TextKey.MenuSettingsVideoVSync, "vSync" },
 				{ TextKey.MenuSettingsVideoAntiAliasing, "anti aliasing" },
 				{ TextKey.MenuSettingsVideoZeroQueuedFrames, "zero queued frames" },
-				
+
 				{ TextKey.MenuSettingsMouseSensitivity, "чувствительность мыши" },
 				{ TextKey.MenuSettingsMouseHardwareCursor, "hardware cursor" },
 				{ TextKey.MenuSettingsControlsWheelCooldown, "кулдаун колеса мыши" },
-				
+
 				{ TextKey.MenuSettingsControlBindingsPage, "бинды" },
 				{ TextKey.MenuSettingsControlSchemePage, "схема" },
 				{ TextKey.MenuSettingsControlPause, "пауза" },
@@ -115,18 +115,18 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.MenuSettingsControlDash, "рывок" },
 				{ TextKey.MenuSettingsControlWeaponModifer, "модификатор пушек" },
 				{ TextKey.MenuSettingsControlRestart, "рестарт" },
-				
+
 				{ TextKey.MenuSettingsSavesImport, $"{T("импортировать сохранения", ColorType.Red)}" },
 				{ TextKey.MenuSettingsSavesExport, "экспорт сохранения" },
 				{ TextKey.MenuSettingsSavesUnlockAll, $"{T("разблокировать весь контент", ColorType.Red)}"},
 				{ TextKey.MenuSettingsSavesReset, $"{T("сбросить сохранения", ColorType.Red)}" },
-				
+
 				{ TextKey.MenuSettingsCreditsTwitter, $"{T("link", ColorType.Blue)}" },
-				
+
 				{ TextKey.UnlockBow, P(TextKey.WordBow) },
 				{ TextKey.UnlockMine, P(TextKey.WordMine) },
 				{ TextKey.UnlockStaticShield, P(TextKey.WordStaticShield) },
-				
+
 				{ TextKey.TutorialThisIsMana, "убей для получения заряда рывка" },
 				{ TextKey.TutorialManaDisplay, "заряды рывка" },
 				{ TextKey.TutorialMoveHere, "встань тут" },
@@ -136,7 +136,7 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.TutorialPortalIsBroken, "в любой момент вернуться в хаб" },
 				{ TextKey.TutorialPortalIsBrokenAgain, "вернуться в хаб" },
 				{ TextKey.TutorialX3, "убийство ТРЕХ противников ОДНИМ выстрелом\nусиливает пушки" },
-				
+
 				{ TextKey.TextReset, "сброс" },
 				{ TextKey.TextRedReset, $"{T("сброс", ColorType.Red)}" },
 				{ TextKey.TextBack, "назад" },
@@ -154,7 +154,7 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.TextGetting, "Получение:" },
 				{ TextKey.TextMoreInfo, $"подробности - {T("ESC", ColorType.Green)}" },
 				{ TextKey.TextApply, "применить" },
-				
+
 				{ TextKey.SetupGuideAnalytics, "разрешить сбор аналитики?" },
 				{ TextKey.SetupGuideHaveMouse, "мышь или тачпад?" },
 				{ TextKey.SetupGuideMouse, "мышь" },
@@ -163,7 +163,7 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.SetupGuideNoSideButtons, "у меня нет боковых кнопок" },
 				{ TextKey.SetupGuideWheelScroll, "покрути колесо мыши, если оно работает" },
 				{ TextKey.SetupGuideNoWheelScroll, "колесо мыши не работает" },
-				
+
 				{ TextKey.BindingLMB, "левая кнопка мыши" },
 				{ TextKey.BindingRMB, "правая кнопка мыши" },
 				{ TextKey.BindingMMB, "средняя кнопка мыши" },
@@ -172,15 +172,39 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.BindingSMBB, "боковая кнопка мыши" },
 				{ TextKey.BindingLeftShift, "шифт" },
 				{ TextKey.BindingSpace, "пробел" },
-				
-				{ TextKey.ServerConnectFailed, $"статус сервера: {T("offline", ColorType.Red)}" },
-				{ TextKey.ServerConnectSuccess, $"статус сервера: {T("online", ColorType.Green)}" },
-				{ TextKey.ServerScoreUpdateFailed, $"счет {T("не обновлен", ColorType.Red)}" },
-				{ TextKey.ServerScoreUpdated, $"счет {T("обновлен", ColorType.Green)}" },
-				{ TextKey.ServerConnecting, "подключение" },
+
+				{ TextKey.ServerStatusOffline, $"{T("оффлайн", ColorType.Red)}" },
+				{ TextKey.ServerStatusOnline, $"{T("онлайн", ColorType.Green)}" },
+				{ TextKey.ServerScoreUpdateFailed, $"{T("не обновлен", ColorType.Red)}" },
+				{ TextKey.ServerScoreUpdated, $"{T("обновлен", ColorType.Green)}" },
+				{ TextKey.ServerStatusChecking, "подключение" },
 				{ TextKey.ServerLoading, "загрузка" },
 				{ TextKey.ServerNoRecords, "no records" },
-				
+				{ TextKey.ServerStatusLabel, "сервер" },
+				{ TextKey.ServerChecking, "проверка" },
+				{ TextKey.ConnectionStatusLabel, "подключение" },
+				{ TextKey.ServerStatusAvailable, $"{T("доступен", ColorType.Green)}" },
+				{ TextKey.ConnectionStatusConnected, $"{T("подключено", ColorType.Green)}" },
+				{ TextKey.ServerClientOutdated, $"{T("клиент игры устарел", ColorType.Red)}" },
+				{ TextKey.ServerClientSteamOffline, $"{T("клиент игры не подключен к steam", ColorType.Red)}" },
+				{ TextKey.ServerUnavailable, $"{T("сервер не доступен", ColorType.Red)}" },
+				{ TextKey.ServerAuthorizationError, $"{T("ошибка авторизации", ColorType.Red)}" },
+				{ TextKey.SteamStatusLabel, "steam" },
+				{ TextKey.SteamStatusAvailable, $"{T("подключен", ColorType.Green)}" },
+				{ TextKey.SteamStatusUnavailable, $"{T("не подключен", ColorType.Red)}" },
+				{ TextKey.ConnectionSteamRequired, $"{T("необходимо подключение к steam", ColorType.Red)}" },
+				{ TextKey.ConnectionConnectingToServer, "подключение к серверу" },
+				{ TextKey.GameVersionStatusLabel, "версия игры" },
+				{ TextKey.AuthorizationStatusLabel, "авторизация" },
+				{ TextKey.AuthorizationStatusSuccess, $"{T("успешно", ColorType.Green)}" },
+				{ TextKey.AuthorizationStatusFailed, $"{T("не успешно", ColorType.Red)}" },
+				{ TextKey.ConnectionResultSuccess, $"{T("подключено к серверу", ColorType.Green)}" },
+				{ TextKey.ConnectionResultFailed, $"{T("подключение к серверу не выполнено", ColorType.Red)}" },
+				{ TextKey.NetworkGameModeLabel, "режим игры" },
+				{ TextKey.NetworkSwitchMode, "switch mode" },
+				{ TextKey.NetworkRetryConnection, "повторить подключение" },
+				{ TextKey.ServerClientUpdateRequired, $"{T("требуется обновление игры", ColorType.Red)}" },
+
 				{ TextKey.LeaderboardPlace, "#" },
 				{ TextKey.LeaderboardPlayer, "player" },
 				{ TextKey.LeaderboardSeed, "seed" },

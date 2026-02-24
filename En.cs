@@ -30,14 +30,14 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.WordX3, "x3" },
 				{ TextKey.WordMine, P(TextKey.WordMine) },
 				{ TextKey.WordStaticShield, P(TextKey.WordStaticShield) },
-				
+
 				{ TextKey.MenuPause, "pause" },
-				
+
 				{ TextKey.MenuSkillsTab, "skills" },
 				{ TextKey.MenuSettingsTab, "settings" },
-				
+
 				{ TextKey.MenuSkillToHub, "return to hub" },
-				
+
 				{ TextKey.MenuSkillsPistolDescription, "High fire rate, but low range" },
 				{ TextKey.MenuSkillsPistolX5, "Increases fire rate" },
 				{ TextKey.MenuSkillsPistolX3, "Turns into a shotgun" },
@@ -79,27 +79,27 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.MenuSettingsVideoPage, "video" },
 				{ TextKey.MenuSettingsMousePage, "mouse" },
 				{ TextKey.MenuSettingsControlsPage, "controls" },
-				{ TextKey.MenuSettingsConnectToServer, "online" },
+				{ TextKey.MenuSettingsConnectToServer, "network" },
 				{ TextKey.MenuSettingsSavesPage, "saves" },
 				{ TextKey.MenuSettingsCreditsPage, "credits" },
 				{ TextKey.MenuSettingsGameExit, $"{T("exit the game", ColorType.Red)}" },
-				
+
 				{ TextKey.MenuSettingsSoundMasterVolume, "master" },
 				{ TextKey.MenuSettingsSoundMusicVolume, "music" },
 				{ TextKey.MenuSettingsSoundEffectsVolume, "effects" },
 				{ TextKey.MenuSettingsSoundUIVolume, "ui" },
-				
+
 				{ TextKey.MenuSettingsVideoFullscreen, "fullscreen" },
 				{ TextKey.MenuSettingsVideoMotionBlur, "motion blur" },
 				{ TextKey.MenuSettingsVideoScreenShake, "screen shake" },
 				{ TextKey.MenuSettingsVideoVSync, "vSync" },
 				{ TextKey.MenuSettingsVideoAntiAliasing, "anti aliasing" },
 				{ TextKey.MenuSettingsVideoZeroQueuedFrames, "zero queued frames" },
-				
+
 				{ TextKey.MenuSettingsMouseSensitivity, "mouse sensitivity" },
 				{ TextKey.MenuSettingsMouseHardwareCursor, "hardware cursor" },
 				{ TextKey.MenuSettingsControlsWheelCooldown, "mouse wheel cooldown" },
-				
+
 				{ TextKey.MenuSettingsControlBindingsPage, "bindings" },
 				{ TextKey.MenuSettingsControlSchemePage, "scheme" },
 				{ TextKey.MenuSettingsControlPause, "pause" },
@@ -115,18 +115,18 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.MenuSettingsControlDash, "dash" },
 				{ TextKey.MenuSettingsControlWeaponModifer, "weapons modifer" },
 				{ TextKey.MenuSettingsControlRestart, "restart" },
-				
+
 				{ TextKey.MenuSettingsSavesImport, $"{T("import saves", ColorType.Red)}" },
 				{ TextKey.MenuSettingsSavesExport, "export saves" },
 				{ TextKey.MenuSettingsSavesUnlockAll, $"{T("unlock all content", ColorType.Red)}"},
 				{ TextKey.MenuSettingsSavesReset, $"{T("reset saves", ColorType.Red)}" },
-				
+
 				{ TextKey.MenuSettingsCreditsTwitter, $"{T("link", ColorType.Blue)}" },
-				
+
 				{ TextKey.UnlockBow, P(TextKey.WordBow) },
 				{ TextKey.UnlockMine, P(TextKey.WordMine) },
 				{ TextKey.UnlockStaticShield, P(TextKey.WordStaticShield) },
-				
+
 				{ TextKey.TutorialThisIsMana, "kill to gain a dash charge" },
 				{ TextKey.TutorialManaDisplay, "dash charges" },
 				{ TextKey.TutorialMoveHere, "stand here" },
@@ -154,7 +154,7 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.TextGetting, "Getting:" },
 				{ TextKey.TextMoreInfo, $"press {T("ESC", ColorType.Green)} for details" },
 				{ TextKey.TextApply, "apply" },
-				
+
 				{ TextKey.SetupGuideAnalytics, "allow analytics collection?" },
 				{ TextKey.SetupGuideHaveMouse, "mouse or touchpad?" },
 				{ TextKey.SetupGuideMouse, "mouse" },
@@ -172,14 +172,38 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.BindingSMBB, "mouse back button" },
 				{ TextKey.BindingLeftShift, "shift" },
 				{ TextKey.BindingSpace, "space" },
-				
-				{ TextKey.ServerConnectFailed, $"server status: {T("offline", ColorType.Red)}" },
-				{ TextKey.ServerConnectSuccess, $"server status: {T("online", ColorType.Green)}" },
-				{ TextKey.ServerScoreUpdateFailed, $"score {T("not updated", ColorType.Red)}" },
-				{ TextKey.ServerScoreUpdated, $"score {T("updated", ColorType.Green)}" },
-				{ TextKey.ServerConnecting, "connecting" },
+
+				{ TextKey.ServerStatusOffline, $"{T("offline", ColorType.Red)}" },
+				{ TextKey.ServerStatusOnline, $"{T("online", ColorType.Green)}" },
+				{ TextKey.ServerScoreUpdateFailed, $"{T("not updated", ColorType.Red)}" },
+				{ TextKey.ServerScoreUpdated, $"{T("updated", ColorType.Green)}" },
+				{ TextKey.ServerStatusChecking, "connecting" },
 				{ TextKey.ServerLoading, "loading" },
 				{ TextKey.ServerNoRecords, "no records" },
+				{ TextKey.ServerStatusLabel, "server" },
+				{ TextKey.ServerChecking, "checking" },
+				{ TextKey.ConnectionStatusLabel, "connection" },
+				{ TextKey.ServerStatusAvailable, $"{T("available", ColorType.Green)}" },
+				{ TextKey.ConnectionStatusConnected, $"{T("connected", ColorType.Green)}" },
+				{ TextKey.ServerClientOutdated, $"{T("game client is outdated", ColorType.Red)}" },
+				{ TextKey.ServerClientSteamOffline, $"{T("game client is not connected to steam", ColorType.Red)}" },
+				{ TextKey.ServerUnavailable, $"{T("server is unavailable", ColorType.Red)}" },
+				{ TextKey.ServerAuthorizationError, $"{T("authorization error", ColorType.Red)}" },
+				{ TextKey.SteamStatusLabel, "steam" },
+				{ TextKey.SteamStatusAvailable, $"{T("connected", ColorType.Green)}" },
+				{ TextKey.SteamStatusUnavailable, $"{T("not connected", ColorType.Red)}" },
+				{ TextKey.ConnectionSteamRequired, $"{T("steam connection is required", ColorType.Red)}" },
+				{ TextKey.ConnectionConnectingToServer, "connecting to server" },
+				{ TextKey.GameVersionStatusLabel, "game version" },
+				{ TextKey.AuthorizationStatusLabel, "authorization" },
+				{ TextKey.AuthorizationStatusSuccess, $"{T("success", ColorType.Green)}" },
+				{ TextKey.AuthorizationStatusFailed, $"{T("failed", ColorType.Red)}" },
+				{ TextKey.ConnectionResultSuccess, $"{T("connected to server", ColorType.Green)}" },
+				{ TextKey.ConnectionResultFailed, $"{T("connection to server failed", ColorType.Red)}" },
+				{ TextKey.NetworkGameModeLabel, "game mode" },
+				{ TextKey.NetworkSwitchMode, "switch mode" },
+				{ TextKey.NetworkRetryConnection, "retry connection" },
+				{ TextKey.ServerClientUpdateRequired, $"{T("game update required", ColorType.Red)}" },
 
 				{ TextKey.LeaderboardPlace, "#" },
 				{ TextKey.LeaderboardPlayer, "player" },

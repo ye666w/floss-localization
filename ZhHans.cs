@@ -32,74 +32,74 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.WordStaticShield, P(TextKey.WordStaticShield) },
 
 				{ TextKey.MenuPause, "暂停" },
-				
+
 				{ TextKey.MenuSkillsTab, "技能" },
 				{ TextKey.MenuSettingsTab, "设置" },
-				
+
 				{ TextKey.MenuSkillToHub, "返回中心" },
-				
+
 				{ TextKey.MenuSkillsPistolDescription, "射速高，但射程短" },
 				{ TextKey.MenuSkillsPistolX5, "射速提升" },
 				{ TextKey.MenuSkillsPistolX3, "变成霰弹枪" },
 				{ TextKey.MenuSkillsPistolFeatures, "" },
-				
+
 				{ TextKey.MenuSkillsBowDescription, "射速低，但射程无限" },
 				{ TextKey.MenuSkillsBowX5, "充能速度提升" },
 				{ TextKey.MenuSkillsBowX3, "可穿透白色护盾" },
 				{ TextKey.MenuSkillsBowFeatures, "• 每次击杀任意敌人可获得1/3的充能\n• 最多可穿透三名敌人" },
-				
+
 				{ TextKey.MenuSkillsSwordDescription, "近战武器" },
 				{ TextKey.MenuSkillsSwordX5, "攻击速度提升" },
 				{ TextKey.MenuSkillsSwordX3, "攻击范围增加" },
 				{ TextKey.MenuSkillsSwordFeatures, "" },
-				
+
 				{ TextKey.MenuSkillsMineDescription, "敌人触碰后触发" },
 				{ TextKey.MenuSkillsMineX5, "投掷速度提升" },
 				{ TextKey.MenuSkillsMineX3, "爆炸范围增加" },
 				{ TextKey.MenuSkillsMineFeatures, $"• 可用 {T("剑", ColorType.Blue)} 投掷\n• 可用 {T("射击", ColorType.Red)} 引爆" },
-				
+
 				{ TextKey.MenuSkillsShieldDescription, $"可防御 {T("子弹", ColorType.Yellow)} 和 {T("敌人", ColorType.Yellow)}" },
 				{ TextKey.MenuSkillsShieldX5, "充能恢复更快" },
 				{ TextKey.MenuSkillsShieldX3, "防御范围增加" },
 				{ TextKey.MenuSkillsShieldFeatures, "• 每次击杀都会恢复充能" },
-				
+
 				{ TextKey.MenuSkillsAuraDescription, $"可防御 {T("子弹", ColorType.Yellow)} 和 {T("敌人", ColorType.Yellow)}" },
 				{ TextKey.MenuSkillsAuraX5, "充能恢复更快" },
 				{ TextKey.MenuSkillsAuraX3, "光环范围增加" },
 				{ TextKey.MenuSkillsAuraFeatures, "• 放置时增加1点冲刺次数" },
-				
+
 				{ TextKey.MenuSkillsX5Description, "提升所有武器的射速" },
 				{ TextKey.MenuSkillsX5Getting, "快速击杀 5 名敌人" },
-				
+
 				{ TextKey.MenuSkillsX3Description, "强化武器" },
 				{ TextKey.MenuSkillsX3Getting, "用一发子弹击杀 3 名敌人" },
-				
+
 				{ TextKey.MenuSettingsLanguagePage, "语言" },
 				{ TextKey.MenuSettingsSoundPage, "音效" },
 				{ TextKey.MenuSettingsVideoPage, "画面" },
 				{ TextKey.MenuSettingsMousePage, "鼠标" },
 				{ TextKey.MenuSettingsControlsPage, "操作" },
-				{ TextKey.MenuSettingsConnectToServer, "online" },
+				{ TextKey.MenuSettingsConnectToServer, "network" },
 				{ TextKey.MenuSettingsSavesPage, "存档" },
 				{ TextKey.MenuSettingsCreditsPage, "制作人员" },
 				{ TextKey.MenuSettingsGameExit, $"{T("退出游戏", ColorType.Red)}" },
-				
+
 				{ TextKey.MenuSettingsSoundMusicVolume, "音乐" },
 				{ TextKey.MenuSettingsSoundMasterVolume, "主音量" },
 				{ TextKey.MenuSettingsSoundEffectsVolume, "效果" },
 				{ TextKey.MenuSettingsSoundUIVolume, "界面" },
-				
+
 				{ TextKey.MenuSettingsVideoFullscreen, "全屏" },
 				{ TextKey.MenuSettingsVideoMotionBlur, "动态模糊" },
 				{ TextKey.MenuSettingsVideoScreenShake, "屏幕震动" },
 				{ TextKey.MenuSettingsVideoVSync, "vSync" },
 				{ TextKey.MenuSettingsVideoAntiAliasing, "anti aliasing" },
 				{ TextKey.MenuSettingsVideoZeroQueuedFrames, "zero queued frames" },
-				
+
 				{ TextKey.MenuSettingsMouseSensitivity, "鼠标灵敏度" },
 				{ TextKey.MenuSettingsMouseHardwareCursor, "hardware cursor" },
 				{ TextKey.MenuSettingsControlsWheelCooldown, "滚轮冷却时间" },
-				
+
 				{ TextKey.MenuSettingsControlBindingsPage, "按键绑定" },
 				{ TextKey.MenuSettingsControlSchemePage, "操作方案" },
 				{ TextKey.MenuSettingsControlPause, "暂停" },
@@ -115,18 +115,18 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.MenuSettingsControlDash, "冲刺" },
 				{ TextKey.MenuSettingsControlWeaponModifer, "武器切换" },
 				{ TextKey.MenuSettingsControlRestart, "restart" },
-				
+
 				{ TextKey.MenuSettingsSavesImport, $"{T("导入存档", ColorType.Red)}" },
 				{ TextKey.MenuSettingsSavesExport, "导出存档" },
 				{ TextKey.MenuSettingsSavesUnlockAll, $"{T("解锁所有内容", ColorType.Red)}"},
 				{ TextKey.MenuSettingsSavesReset, $"{T("重置存档", ColorType.Red)}" },
 
 				{ TextKey.MenuSettingsCreditsTwitter, $"{T("推特", ColorType.Blue)}" },
-				
+
 				{ TextKey.UnlockBow, P(TextKey.WordBow) },
 				{ TextKey.UnlockMine, P(TextKey.WordMine) },
 				{ TextKey.UnlockStaticShield, P(TextKey.WordStaticShield) },
-				
+
 				{ TextKey.TutorialThisIsMana, "击杀可获得一次冲刺能量" },
 				{ TextKey.TutorialManaDisplay, "冲刺能量" },
 				{ TextKey.TutorialMoveHere, "站在这里" },
@@ -136,7 +136,7 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.TutorialPortalIsBroken, "随时返回中心" },
 				{ TextKey.TutorialPortalIsBrokenAgain, "返回中心" },
 				{ TextKey.TutorialX3, "一次射击击杀三名敌人\n可强化武器" },
-				
+
 				{ TextKey.TextReset, "重置" },
 				{ TextKey.TextRedReset, $"{T("重置", ColorType.Red)}" },
 				{ TextKey.TextBack, "返回" },
@@ -154,7 +154,7 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.TextGetting, "获得方式:" },
 				{ TextKey.TextMoreInfo, $"详情 - {T("ESC", ColorType.Green)}" },
 				{ TextKey.TextApply, "应用" },
-				
+
 				{ TextKey.SetupGuideAnalytics, "允许收集数据吗？" },
 				{ TextKey.SetupGuideHaveMouse, "鼠标还是触控板？" },
 				{ TextKey.SetupGuideMouse, "鼠标" },
@@ -163,7 +163,7 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.SetupGuideNoSideButtons, "我没有鼠标侧键" },
 				{ TextKey.SetupGuideWheelScroll, "如果可以，请滚动一下鼠标滚轮" },
 				{ TextKey.SetupGuideNoWheelScroll, "滚轮不可用" },
-				
+
 				{ TextKey.BindingLMB, "鼠标左键" },
 				{ TextKey.BindingRMB, "鼠标右键" },
 				{ TextKey.BindingMMB, "鼠标中键" },
@@ -173,14 +173,38 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.BindingLeftShift, "Shift" },
 				{ TextKey.BindingSpace, "空白" },
 
-				{ TextKey.ServerConnectFailed, $"server status: {T("offline", ColorType.Red)}" },
-				{ TextKey.ServerConnectSuccess, $"server status: {T("online", ColorType.Green)}" },
-				{ TextKey.ServerScoreUpdateFailed, $"score {T("not updated", ColorType.Red)}" },
-				{ TextKey.ServerScoreUpdated, $"score {T("updated", ColorType.Green)}" },
-				{ TextKey.ServerConnecting, "connecting" },
-				{ TextKey.ServerLoading, "loading" },
-				{ TextKey.ServerNoRecords, "no records" },
-				
+				{ TextKey.ServerStatusOffline, $"{T("离线", ColorType.Red)}" },
+				{ TextKey.ServerStatusOnline, $"{T("在线", ColorType.Green)}" },
+				{ TextKey.ServerScoreUpdateFailed, $"{T("未更新", ColorType.Red)}" },
+				{ TextKey.ServerScoreUpdated, $"{T("已更新", ColorType.Green)}" },
+				{ TextKey.ServerStatusChecking, "连接中" },
+				{ TextKey.ServerLoading, "加载中" },
+				{ TextKey.ServerNoRecords, "无记录" },
+				{ TextKey.ServerStatusLabel, "服务器" },
+				{ TextKey.ServerChecking, "检查中" },
+				{ TextKey.ConnectionStatusLabel, "连接" },
+				{ TextKey.ServerStatusAvailable, $"{T("可用", ColorType.Green)}" },
+				{ TextKey.ConnectionStatusConnected, $"{T("已连接", ColorType.Green)}" },
+				{ TextKey.ServerClientOutdated, $"{T("游戏客户端版本过旧", ColorType.Red)}" },
+				{ TextKey.ServerClientSteamOffline, $"{T("游戏客户端未连接到 Steam", ColorType.Red)}" },
+				{ TextKey.ServerUnavailable, $"{T("服务器不可用", ColorType.Red)}" },
+				{ TextKey.ServerAuthorizationError, $"{T("授权错误", ColorType.Red)}" },
+				{ TextKey.SteamStatusLabel, "steam" },
+				{ TextKey.SteamStatusAvailable, $"{T("已连接", ColorType.Green)}" },
+				{ TextKey.SteamStatusUnavailable, $"{T("未连接", ColorType.Red)}" },
+				{ TextKey.ConnectionSteamRequired, $"{T("需要连接到 Steam", ColorType.Red)}" },
+				{ TextKey.ConnectionConnectingToServer, "连接到服务器中" },
+				{ TextKey.GameVersionStatusLabel, "游戏版本" },
+				{ TextKey.AuthorizationStatusLabel, "授权" },
+				{ TextKey.AuthorizationStatusSuccess, $"{T("成功", ColorType.Green)}" },
+				{ TextKey.AuthorizationStatusFailed, $"{T("失败", ColorType.Red)}" },
+				{ TextKey.ConnectionResultSuccess, $"{T("已连接到服务器", ColorType.Green)}" },
+				{ TextKey.ConnectionResultFailed, $"{T("连接服务器失败", ColorType.Red)}" },
+				{ TextKey.NetworkGameModeLabel, "游戏模式" },
+				{ TextKey.NetworkSwitchMode, "switch mode" },
+				{ TextKey.NetworkRetryConnection, "重试连接" },
+				{ TextKey.ServerClientUpdateRequired, $"{T("需要更新游戏", ColorType.Red)}" },
+
 				{ TextKey.LeaderboardPlace, "#" },
 				{ TextKey.LeaderboardPlayer, "player" },
 				{ TextKey.LeaderboardSeed, "seed" },
