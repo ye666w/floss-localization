@@ -79,7 +79,6 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.MenuSettingsVideoPage, "비디오" },
 				{ TextKey.MenuSettingsMousePage, "마우스" },
 				{ TextKey.MenuSettingsControlsPage, "조작" },
-				{ TextKey.MenuSettingsConnectToServer, "network" },
 				{ TextKey.MenuSettingsSavesPage, "세이브" },
 				{ TextKey.MenuSettingsCreditsPage, "크레딧" },
 				{ TextKey.MenuSettingsGameExit, $"{T("게임 나가기", ColorType.Red)}" },
@@ -215,7 +214,10 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.LeaderboardScore, "score" },
 				{ TextKey.LeaderboardPortalsCount, "portals" },
 				{ TextKey.LeaderboardRandomSeed, "random" },
-				{ TextKey.LeaderboardInvalidSeedMessage, $"{T("seed must be 'random' or a valid integer", ColorType.Red)}" }
+				{ TextKey.LeaderboardInvalidSeedMessage, $"{T("seed must be 'random' or a valid integer", ColorType.Red)}" },
+				
+				{ TextKey.Online, $"{T("online", ColorType.Green)}" },
+				{ TextKey.Offline, $"{T("offline", ColorType.Red)}" }
 			};
 		}
 	}

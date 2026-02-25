@@ -79,7 +79,6 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.MenuSettingsVideoPage, "video" },
 				{ TextKey.MenuSettingsMousePage, "mouse" },
 				{ TextKey.MenuSettingsControlsPage, "controls" },
-				{ TextKey.MenuSettingsConnectToServer, "network" },
 				{ TextKey.MenuSettingsSavesPage, "saves" },
 				{ TextKey.MenuSettingsCreditsPage, "credits" },
 				{ TextKey.MenuSettingsGameExit, $"{T("exit the game", ColorType.Red)}" },
@@ -215,7 +214,10 @@ namespace UnityWrappers.Localization.TextResources
 				{ TextKey.LeaderboardScore, "score" },
 				{ TextKey.LeaderboardPortalsCount, "portals" },
 				{ TextKey.LeaderboardRandomSeed, "random" },
-				{ TextKey.LeaderboardInvalidSeedMessage, $"{T("seed must be 'random' or a valid integer", ColorType.Red)}" }
+				{ TextKey.LeaderboardInvalidSeedMessage, $"{T("seed must be 'random' or a valid integer", ColorType.Red)}" },
+				
+				{ TextKey.Online, $"{T("online", ColorType.Green)}" },
+				{ TextKey.Offline, $"{T("offline", ColorType.Red)}" }
 			};
 		}
 	}
